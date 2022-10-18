@@ -1,4 +1,4 @@
-import {Component} from 'react';
+import React, {Component} from 'react';
 import Menu from './components/layouts/menu.component';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
