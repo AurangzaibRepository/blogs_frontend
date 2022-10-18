@@ -1,12 +1,11 @@
-import {Component} from "react";
+import React, {Component} from 'react';
 
-class BlogList extends Component
-{
-    render() {
-        return (
-            <div>Blogs go here</div>
-        );
-    }
+class BlogList extends Component {
+  render() {
+    return (
+      <div>Blogs go here</div>
+    );
+  }
 }
 
 export default BlogList;
