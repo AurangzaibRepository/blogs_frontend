@@ -1,6 +1,6 @@
-import { Component } from "react";
+import {Component} from 'react';
 import Menu from './components/layouts/menu.component';
-import "bootstrap/dist/css/bootstrap.min.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class App extends Component {
   render() {
