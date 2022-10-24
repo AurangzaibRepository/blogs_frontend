@@ -6,7 +6,7 @@ import MostLikedBlogs from '../../blogs/most-liked.component';
 import MostCommentedBlogs from '../../blogs/most-commented.component';
 
 function Menu() {
-  return <div>
+  return <div id="dv-topmenu">
     <NavBar />
     <div>
       <Routes>
