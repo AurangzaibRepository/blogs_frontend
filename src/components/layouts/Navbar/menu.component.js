@@ -4,9 +4,10 @@ import NavBar from './navbar.component';
 import BlogList from '../../blogs/blog-list.component';
 import MostLikedBlogs from '../../blogs/most-liked.component';
 import MostCommentedBlogs from '../../blogs/most-commented.component';
+import styles from './style.module.css';
 
 function Menu() {
-  return <div id="dv-topmenu">
+  return <div id={styles['dv-topmenu']}>
     <NavBar />
     <div>
       <Routes>
