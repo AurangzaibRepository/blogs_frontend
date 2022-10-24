@@ -1,8 +1,15 @@
 #dv-topmenu {
     --bs-bg-opacity: 1;
     background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity)) !important;
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 40px;
 }
 
 #dv-topmenu nav {
     width: fit-content;
+}
+
+#dv-routes {
+    display: none;
 }
