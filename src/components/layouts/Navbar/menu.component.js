@@ -8,8 +8,9 @@ import styles from './style.module.css';
 
 function Menu() {
   return <div id={styles['dv-topmenu']}>
+    <img />
     <NavBar />
-    <div>
+    <div id={styles['dv-routes']}>
       <Routes>
         <Route path="/" element={<BlogList />} />
         <Route path="/most-liked" element={<MostLikedBlogs />} />
