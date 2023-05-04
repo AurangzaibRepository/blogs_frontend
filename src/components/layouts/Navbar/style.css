@@ -1,9 +1,13 @@
 #dv-topmenu {
     --bs-bg-opacity: 1;
-    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity)) !important;
+    box-shadow: 0 5px 20px -10px #000;
     display: flex;
     justify-content: space-between;
-    padding: 7px 40px;
+    padding: 7px 65px;
+}
+
+#dv-topmenu img {
+    height: 82px;
 }
 
 #dv-topmenu nav {
@@ -11,8 +15,11 @@
 }
 
 #dv-topmenu nav .nav-link {
-    color: white;
-    font-size: 20px;
+    color: #333;
+    font-size: 24px;
+    letter-spacing: 3px;
+    padding: 0px 13px;
+    text-transform: uppercase;
 }
 
 #dv-routes {
