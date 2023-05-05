@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import AboutService from '../../services/AboutService';
+import ContentsSection from './ContentsSection';
 import Title from '../layouts/Title';
 
 function About() {
@@ -18,9 +19,10 @@ function About() {
     <>
       <Title title="About" />
       <div className="container dv-main">
-        { /* eslint-disable-next-line jsx-a11y/label-has-associated-control */ }
-        <label className="title full-width text-center">About Me</label>
-        <p className="pre-line">{aboutData}</p>
+        <ContentsSection
+          title="About Me"
+          contents={aboutData}
+        />
       </div>
     </>
   );
