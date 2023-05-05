@@ -12,7 +12,7 @@ function Menu() {
           <Link to="/hire" className="nav-link">Hire</Link>
         </li>
         <li className="nav-item">
-          <Link to="/" className="nav-link">Blogs</Link>
+          <Link to="/blogs" className="nav-link">Blogs</Link>
         </li>
       </ul>
     </nav>
