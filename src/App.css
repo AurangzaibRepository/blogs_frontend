@@ -49,6 +49,10 @@ body {
   width: 100%;
 }
 
+.pre-line {
+  white-space: pre-line;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
