@@ -8,6 +8,7 @@ function About() {
   const [missionData, setMissionData] = useState();
   const [passionData, setPassionData] = useState();
   const [supportData, setSupportData] = useState();
+  const [followMeData, setFollowMeData] = useState();
 
   const getData = async () => {
     const data = await AboutService.getData();
@@ -15,6 +16,7 @@ function About() {
     setMissionData(data.values_and_mission);
     setPassionData(data.passions);
     setSupportData(data.support);
+    setFollowMeData(data.follow_me);
   };
 
   useEffect(() => {
@@ -28,6 +30,7 @@ function About() {
         {aboutData
         && (
           <ContentsSection
+            titleClass="title text-center"
             title="About Me"
             contents={aboutData}
           />
@@ -36,6 +39,7 @@ function About() {
         {missionData
         && (
           <ContentsSection
+            titleClass="title text-center"
             title="values and misson"
             contents={missionData}
           />
@@ -44,6 +48,7 @@ function About() {
         {passionData
         && (
           <ContentsSection
+            titleClass="title text-center"
             title="passions beyond web development"
             contents={passionData}
           />
@@ -52,8 +57,17 @@ function About() {
         {supportData
         && (
           <ContentsSection
+            titleClass="title text-center"
             title="You like my content? Here are a couple of ways to support it."
             contents={supportData}
+          />
+        )}
+        {followMeData
+        && (
+          <ContentsSection
+            titleClass="sub-title"
+            title="Follow Me"
+            contents={followMeData}
           />
         )}
       </div>
