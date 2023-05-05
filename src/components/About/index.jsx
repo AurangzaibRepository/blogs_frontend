@@ -7,12 +7,14 @@ function About() {
   const [aboutData, setAboutData] = useState();
   const [missionData, setMissionData] = useState();
   const [passionData, setPassionData] = useState();
+  const [supportData, setSupportData] = useState();
 
   const getData = async () => {
     const data = await AboutService.getData();
     setAboutData(data.about);
     setMissionData(data.values_and_mission);
     setPassionData(data.passions);
+    setSupportData(data.support);
   };
 
   useEffect(() => {
@@ -44,6 +46,14 @@ function About() {
           <ContentsSection
             title="passions beyond web development"
             contents={passionData}
+          />
+        )}
+        <div className="section-divider" />
+        {supportData
+        && (
+          <ContentsSection
+            title="You like my content? Here are a couple of ways to support it."
+            contents={supportData}
           />
         )}
       </div>
