@@ -23,6 +23,7 @@ function About() {
           title="About Me"
           contents={aboutData}
         />
+        <div className="section-divider" />
       </div>
     </>
   );
