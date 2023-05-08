@@ -9,11 +9,27 @@ function PassionsSection({
   noteworthy,
 }) {
   return (
-    <ContentsSection
-      titleClass="title text-center"
-      title="passions beyond web development"
-      contents={body}
-    />
+    <>
+      <ContentsSection
+        titleClass="title text-center"
+        title="passions beyond web development"
+        contents={body}
+      />
+      { /* eslint-disable-next-line jsx-a11y/label-has-associated-control */ }
+      <label className="full-width sub-title">Watching</label>
+      <ul>
+        {watching.map((item) => (
+          <li key={item.id}>{item.title}</li>
+        ))}
+      </ul>
+      { /* eslint-disable-next-line jsx-a11y/label-has-associated-control */ }
+      <label className="full-width sub-title">Noteworthy</label>
+      <ul>
+        {noteworthy.map((item) => (
+          <li key={item.id}>{item.title}</li>
+        ))}
+      </ul>
+    </>
   );
 }
 
