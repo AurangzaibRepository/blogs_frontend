@@ -84,5 +84,73 @@
         "learn_react": "Fourth, it encourages me when people learn React through my articles, eBooks or courses. It keeps me motivated to improve the material all the time. Even though the eBook is pay what you want, you can support me by paying for it. It helps me to take more time to update, improve and extend the material. A lot of people learned with my articles, books and courses and I encourage you to give it a shot as well. If you liked it, spread the word to your friends who want to learn it as well.",
         "contribute": "Fifth, you can have a direct impact yourself. Every of my articles has a link to the GitHub repository where I manage all of my content. You can open Issues or Pull Requests to improve the articles. It is not easy to keep everything up to date being all by myself. Additionally, it is not easy as a non native speaker.\n\nIn addition, you can write a guest blog post. Do you have an own website? Do you write quality content? Do you want to get more readers to your website? My website generates lots of traffic. You can help a lot of people in your topic of choice by teaching them. A guest blog post that links to your website is a great contribution. It has to relate to my content though.",
         "donate": "Last but not least, you can donate to support me. It is not time consuming, it is simple, and it is a one time donation. After all, it helps me to take time off to improve articles, to keep them up to date and to write more teaching material."
+    },
+    "what_use": {
+        "body": "The following is a selection of my tools that I use for my professional work. The links to the resources can be affiliate links or referral links. The former give me some provision, the latter provides you and me with a discount to a service or product. So most of the time it's a win-win situation and these affiliate links are one way to support me being self-employed. However, most importantly I hope that these resources help you to build your business.",
+        "digital_ocean": "When I revamped my website, I decided to use Digital Ocean to host it. I don't regret it and can highly recommend it. It powers all my websites, APIs and applications by using only 3 Droplets (each $5 month). I believe one droplet would be sufficient, but I like to separate them by domain.",
+        "email": "In order to use my own domain for my E-Mails, but also to keep my E-Mails private, secure and ad-free, I use Fastmail.",
+        "technical_gear": [
+            {
+                "id": 1,
+                "title": "MacBook Pro 2021"
+            },
+            {
+                "id": 2,
+                "title": "Backup MacBook Pro 2015"
+            },
+            {
+                "id": 3,
+                "title": "Laptop Stand "
+            },
+            {
+                "id": 4,
+                "title": "Trackpad and Keyboard"
+            },
+            {
+                "id": 5,
+                "title": "Headphones"
+            },
+            {
+                "id": 6,
+                "title": "Display"
+            }
+        ],
+        "Apps": [
+            {
+                "id": 1,
+                "title": "Twitter"
+            },
+            {
+                "id": 2,
+                "title": "Pocket"
+            },
+            {
+                "id": 3,
+                "title": "GoodReads"
+            },
+            {
+                "id": 4,
+                "title": "Podcast"
+            },
+            {
+                "id": 5,
+                "title": "Buffer"
+            },
+            {
+                "id": 6,
+                "title": "Reddit"
+            },
+            {
+                "id": 7,
+                "title": "SoundCloud"
+            },
+            {
+                "id": 8,
+                "title": "Figma"
+            }
+        ],
+        "freelancers": "If you are looking for top quality people to help you with your online business, checkout these people I worked with in the past. I highly recommend their skills and abilities to provide value to your company. Let them know that you heard about them from me :-)",
+        "newsletter": "Substack is perfect for my needs to setup a Newsletter for my website. It has everything I need even though I relied heavily on Revue and MailChimp before.",
+        "email_marketing": "Another email marketing tool I rely heavily on is Convertkit. After developers sign up on my course platform, they receive a sequence of emails about all my courses. Without Convertkit, I wouldn't be able to give these developers a showreel of my courses."
     }
 }
