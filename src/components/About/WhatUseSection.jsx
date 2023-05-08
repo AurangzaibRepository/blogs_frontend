@@ -13,8 +13,20 @@ function WhatUseSection({
   emailMarketing,
 }) {
   return (
-
+    <>
+    </>
   );
 }
+
+WhatUseSection.propTypes = {
+  body: PropTypes.string.isRequired,
+  digitalOcean: PropTypes.string.isRequired,
+  email: PropTypes.string.isRequired,
+  technicalGear: PropTypes.instanceOf(Array).isRequired,
+  apps: PropTypes.instanceOf(Array).isRequired,
+  freelenacers: PropTypes.string.isRequired,
+  newsletter: PropTypes.string.isRequired,
+  emailMarketing: PropTypes.string.isRequired,
+};
 
 export default WhatUseSection;
