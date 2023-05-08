@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import AboutService from '../../services/AboutService';
 import ContentsSection from './ContentsSection';
+import PassionsSection from './PassionsSection';
 import SupportSection from './SupportSection';
 import Title from '../layouts/Title';
 
@@ -46,10 +47,10 @@ function About() {
         <div className="section-divider" />
         {passionData
         && (
-          <ContentsSection
-            titleClass="title text-center"
-            title="passions beyond web development"
-            contents={passionData}
+          <PassionsSection
+            body={passionData.body}
+            watching={passionData.watching}
+            noteworthy={passionData.noteworthy}
           />
         )}
         <div className="section-divider" />
