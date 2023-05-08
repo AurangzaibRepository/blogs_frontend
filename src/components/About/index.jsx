@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import AboutService from '../../services/AboutService';
 import ContentsSection from './ContentsSection';
+import SupportSection from './SupportSection';
 import Title from '../layouts/Title';
 
 function About() {
@@ -8,7 +9,6 @@ function About() {
   const [missionData, setMissionData] = useState();
   const [passionData, setPassionData] = useState();
   const [supportData, setSupportData] = useState();
-  const [followMeData, setFollowMeData] = useState();
 
   const getData = async () => {
     const data = await AboutService.getData();
@@ -16,7 +16,6 @@ function About() {
     setMissionData(data.values_and_mission);
     setPassionData(data.passions);
     setSupportData(data.support);
-    setFollowMeData(data.follow_me);
   };
 
   useEffect(() => {
@@ -56,18 +55,14 @@ function About() {
         <div className="section-divider" />
         {supportData
         && (
-          <ContentsSection
-            titleClass="title text-center"
-            title="You like my content? Here are a couple of ways to support it."
-            contents={supportData}
-          />
-        )}
-        {followMeData
-        && (
-          <ContentsSection
-            titleClass="sub-title"
-            title="Follow Me"
-            contents={followMeData}
+          <SupportSection
+            body={supportData.description}
+            followMe={supportData.follow_me}
+            leaveReview={supportData.leave_review}
+            share={supportData.share}
+            learnReact={supportData.learn_react}
+            contribute={supportData.contribute}
+            donate={supportData.donate}
           />
         )}
       </div>
