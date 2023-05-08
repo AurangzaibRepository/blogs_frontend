@@ -1,6 +1,7 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import PropTypes from 'prop-types';
+import ContentsSection from './ContentsSection';
 
 function WhatUseSection({
   body,
@@ -14,6 +15,28 @@ function WhatUseSection({
 }) {
   return (
     <>
+      <ContentsSection
+        titleClass="title text-center"
+        title="what i use"
+        contents={body}
+      />
+      <ContentsSection
+        titleClass="sub-title"
+        title="Digital Ocean"
+        contents={digitalOcean}
+      />
+      <ContentsSection
+        titleClass="sub-title"
+        title="email"
+        contents={email}
+      />
+      { /* eslint-disable-next-line jsx-a11y/label-has-associated-control */ }
+      <label className="full-width sub-title">Technical Gear</label>
+      <ul>
+        {technicalGear.map((item) => (
+          <li key={item.id}>{item.title}</li>
+        ))}
+      </ul>
     </>
   );
 }
