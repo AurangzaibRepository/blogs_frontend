@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Menu from './Menu';
 import logo from '../../../assets/logo.png';
-import './Style.css';
+import './style.css';
 
 function Navbar() {
   return (
