@@ -69,6 +69,20 @@ function About() {
             donate={supportData.donate}
           />
         )}
+        <div className="section-divider" />
+        {whatUseData
+        && (
+          <WhatUseSection
+            body={whatUseData.body}
+            digitalOcean={whatUseData.digital_ocean}
+            email={whatUseData.email}
+            technicalGear={whatUseData.technical_gear}
+            apps={whatUseData.apps}
+            freelancers={whatUseData.freelancers}
+            newsletter={whatUseData.newsletter}
+            emailMarketing={whatUseData.email_marketing}
+          />
+        )}
       </div>
     </>
   );
