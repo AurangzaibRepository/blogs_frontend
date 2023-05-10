@@ -10,3 +10,7 @@
 #dv-footer a {
     text-decoration: none;
 }
+
+#dv-footer svg {
+    font-size: 30px;
+}
