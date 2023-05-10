@@ -9,7 +9,7 @@ function WhatUseSection({
   email,
   technicalGear,
   apps,
-  freelenacers,
+  freelancers,
   newsletter,
   emailMarketing,
 }) {
@@ -27,7 +27,7 @@ function WhatUseSection({
       />
       <ContentsSection
         titleClass="sub-title"
-        title="email"
+        title="Email"
         contents={email}
       />
       { /* eslint-disable-next-line jsx-a11y/label-has-associated-control */ }
@@ -46,17 +46,17 @@ function WhatUseSection({
       </ul>
       <ContentsSection
         titleClass="sub-title"
-        title="freelancers"
-        contents={freelenacers}
+        title="Freelancers"
+        contents={freelancers}
       />
       <ContentsSection
         titleClass="sub-title"
-        title="newsletter"
+        title="Newsletter"
         contents={newsletter}
       />
       <ContentsSection
         titleClass="sub-title"
-        title="email marketing"
+        title="Email Marketing"
         contents={emailMarketing}
       />
     </>
@@ -69,7 +69,7 @@ WhatUseSection.propTypes = {
   email: PropTypes.string.isRequired,
   technicalGear: PropTypes.instanceOf(Array).isRequired,
   apps: PropTypes.instanceOf(Array).isRequired,
-  freelenacers: PropTypes.string.isRequired,
+  freelancers: PropTypes.string.isRequired,
   newsletter: PropTypes.string.isRequired,
   emailMarketing: PropTypes.string.isRequired,
 };
