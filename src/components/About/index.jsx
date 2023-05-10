@@ -3,6 +3,7 @@ import AboutService from '../../services/AboutService';
 import ContentsSection from './ContentsSection';
 import PassionsSection from './PassionsSection';
 import SupportSection from './SupportSection';
+import WhatUseSection from './WhatUseSection';
 import Title from '../layouts/Title';
 
 function About() {
@@ -10,6 +11,7 @@ function About() {
   const [missionData, setMissionData] = useState();
   const [passionData, setPassionData] = useState();
   const [supportData, setSupportData] = useState();
+  const [whatUseData, setWhatUseData] = useState();
 
   const getData = async () => {
     const data = await AboutService.getData();
@@ -17,6 +19,7 @@ function About() {
     setMissionData(data.values_and_mission);
     setPassionData(data.passions);
     setSupportData(data.support);
+    setWhatUseData(data.what_use);
   };
 
   useEffect(() => {
