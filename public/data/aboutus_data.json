@@ -115,7 +115,7 @@
                 "title": "Display"
             }
         ],
-        "Apps": [
+        "apps": [
             {
                 "id": 1,
                 "title": "Twitter"
