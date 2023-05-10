@@ -15,9 +15,9 @@ function Footer() {
       { /* eslint-disable-next-line jsx-a11y/label-has-associated-control */ }
       <label className="small">© Robin Wieruch</label>
       <div>
-        <FontAwesomeIcon icon={faTwitter} />
-        <FontAwesomeIcon icon={faGit} />
-        <FontAwesomeIcon icon={faFacebook} />
+        <FontAwesomeIcon icon={faTwitter} className="me-4" />
+        <FontAwesomeIcon icon={faGit} className="me-4" />
+        <FontAwesomeIcon icon={faFacebook} className="me-4" />
         <FontAwesomeIcon icon={faMailBulk} />
       </div>
       <div>
