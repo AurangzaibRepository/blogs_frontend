@@ -54,6 +54,11 @@ function WhatUseSection({
         title="newsletter"
         contents={newsletter}
       />
+      <ContentsSection
+        titleClass="sub-title"
+        title="email marketing"
+        contents={emailMarketing}
+      />
     </>
   );
 }
