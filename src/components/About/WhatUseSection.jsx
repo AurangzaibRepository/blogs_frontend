@@ -44,6 +44,16 @@ function WhatUseSection({
           <li key={item.id}>{item.title}</li>
         ))}
       </ul>
+      <ContentsSection
+        titleClass="sub-title"
+        title="freelancers"
+        contents={freelenacers}
+      />
+      <ContentsSection
+        titleClass="sub-title"
+        title="newsletter"
+        contents={newsletter}
+      />
     </>
   );
 }
