@@ -1,7 +1,6 @@
 body {
   color: #333;
   font-size: 25px;
-  letter-spacing: 1px;
 }
 
 .App {
@@ -51,6 +50,10 @@ body {
   font-size: 25px;
   font-weight: 600;
   margin: 10px 0px 18px 0px;
+}
+
+p {
+  letter-spacing: 1px;
 }
 
 .full-width {
