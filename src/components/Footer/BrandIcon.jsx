@@ -9,8 +9,8 @@ function BrandIcon({
   className,
 }) {
   return (
-    <a href={url}>
-      <FontAwesomeIcon icon={icon} className={className} />
+    <a href={url} className={className}>
+      <FontAwesomeIcon icon={icon} />
     </a>
   );
 }
@@ -18,7 +18,7 @@ function BrandIcon({
 BrandIcon.propTypes = {
   url: PropTypes.string.isRequired,
   className: PropTypes.string,
-  icon: PropTypes.node.isRequired,
+  icon: PropTypes.instanceOf(Object).isRequired,
 };
 
 BrandIcon.defaultProps = {
