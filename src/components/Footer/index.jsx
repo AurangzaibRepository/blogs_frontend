@@ -12,6 +12,17 @@ import FooterService from '../../services/FooterService';
 import './style.css';
 
 function Footer() {
+  const [data, setData] = useState();
+
+  const getData = async () => {
+    const footerData = await FooterService.getData();
+    setData(footerData);
+  };
+
+  useEffect(() => {
+    getData();
+  }, []);
+
   return (
     <>
       <div className="section-divider" />
