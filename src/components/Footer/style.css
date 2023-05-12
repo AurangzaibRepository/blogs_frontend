@@ -3,8 +3,10 @@
     padding: 18px 65px;
 }
 
-#dv-footer .small {
+#dv-footer .small,
+#dv-footer-contents .small {
     color: #545454;
+    text-decoration: none;
 }
 
 #dv-footer a {
