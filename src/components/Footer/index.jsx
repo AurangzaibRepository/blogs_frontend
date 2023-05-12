@@ -1,12 +1,12 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMailBulk } from '@fortawesome/free-solid-svg-icons';
 import {
   faGit,
   faFacebook,
   faTwitter,
 } from '@fortawesome/free-brands-svg-icons';
+import BrandIcon from './BrandIcon';
 import './style.css';
 
 function Footer() {
@@ -15,18 +15,25 @@ function Footer() {
       { /* eslint-disable-next-line jsx-a11y/label-has-associated-control */ }
       <label className="small">© Robin Wieruch</label>
       <div>
-        <a href="http://www.twitter.com">
-          <FontAwesomeIcon icon={faTwitter} className="me-4" />
-        </a>
-        <a href="http://www.github.com">
-          <FontAwesomeIcon icon={faGit} className="me-4" />
-        </a>
-        <a href="http://www.github.com">
-          <FontAwesomeIcon icon={faFacebook} className="me-4" />
-        </a>
-        <a href="mailto:test@gmail.com">
-          <FontAwesomeIcon icon={faMailBulk} />
-        </a>
+        <BrandIcon
+          url="http://www.twitter.com"
+          className="me-4"
+          icon={faTwitter}
+        />
+        <BrandIcon
+          url="http://www.github.com"
+          className="me-4"
+          icon={faGit}
+        />
+        <BrandIcon
+          url="http://www.facebook.com"
+          className="me-4"
+          icon={faFacebook}
+        />
+        <BrandIcon
+          url="mailto:test@gmail.com"
+          icon={faMailBulk}
+        />
       </div>
       <div>
         <a href="mailto:hello@gmail.com" className="small me-4">Contact Me</a>
