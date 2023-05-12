@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 function BrandIcon({
   url,
   icon,
-  className
+  className,
 }) {
   return (
     <a href={url}>
@@ -14,5 +14,11 @@ function BrandIcon({
     </a>
   );
 }
+
+BrandIcon.propTypes = {
+  url: PropTypes.string.isRequired,
+  className: PropTypes.string.isRequired,
+  icon: PropTypes.node.isRequired,
+};
 
 export default BrandIcon;
