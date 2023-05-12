@@ -19,6 +19,14 @@ function WorkWithMe() {
     <>
       <Title title="React Developer" />
       <div className="container dv-main">
+        {data
+        && (
+          <ContentsSection
+            titleClass="title text-center"
+            title="React Developer"
+            contents={data.react_developer}
+          />
+        )}
       </div>
     </>
   );
