@@ -17,8 +17,12 @@ function BrandIcon({
 
 BrandIcon.propTypes = {
   url: PropTypes.string.isRequired,
-  className: PropTypes.string.isRequired,
+  className: PropTypes.string,
   icon: PropTypes.node.isRequired,
+};
+
+BrandIcon.defaultProps = {
+  className: '',
 };
 
 export default BrandIcon;
