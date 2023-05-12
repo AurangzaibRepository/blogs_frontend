@@ -2,33 +2,40 @@
     "portfolio_links": [
         {
             "id": 1,
-            "title": "Online Courses"
+            "title": "Online Courses",
+            "url": "https://courses.robinwieruch.de"
         },
         {
             "id": 2,
-            "title": "Open Source"
+            "title": "Open Source",
+            "url": "https://github.com/rwieruch"
         },
         {
             "id": 3,
-            "title": "Tutorials"
+            "title": "Tutorials",
+            "url": "/blogs"
         }
     ],
     "about_links": [
         {
             "id": 1,
-            "title": "About me"
+            "title": "About me",
+            "url": "/about"
         },
         {
             "id": 2,
-            "title": "How to work with me"
+            "title": "How to work with me",
+            "url": "/work-with-me"
         },
         {
             "id": 3,
-            "title": "What I use"
+            "title": "What I use",
+            "url": "/about#what-i-use"
         },
         {
             "id": 4,
-            "title": "How to support me"
+            "title": "How to support me",
+            "url": "/about#support-me"
         }
     ]
 }
