@@ -24,4 +24,9 @@ function FooterContents({ portfolioLinks, aboutLinks }) {
   );
 }
 
+FooterContents.propTypes = {
+  portfolioLinks: PropTypes.instanceOf(Array).isRequired,
+  aboutLinks: PropTypes.instanceOf(Array).isRequired,
+};
+
 export default FooterContents;
