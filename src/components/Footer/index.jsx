@@ -26,10 +26,13 @@ function Footer() {
   return (
     <>
       <div className="section-divider" />
-      <FooterContents
-        portfolioLinks={data.portfolio_links}
-        aboutLinks={data.about_links}
-      />
+      {data
+      && (
+        <FooterContents
+          portfolioLinks={data.portfolio_links}
+          aboutLinks={data.about_links}
+        />
+      )}
       <div id="dv-footer" className="d-flex justify-content-between">
         { /* eslint-disable-next-line jsx-a11y/label-has-associated-control */ }
         <label className="small">© Robin Wieruch</label>
