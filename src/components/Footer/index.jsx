@@ -13,6 +13,7 @@ import './style.css';
 function Footer() {
   return (
     <>
+      <div className="section-divider" />
       <FooterContents />
       <div id="dv-footer" className="d-flex justify-content-between">
         { /* eslint-disable-next-line jsx-a11y/label-has-associated-control */ }
