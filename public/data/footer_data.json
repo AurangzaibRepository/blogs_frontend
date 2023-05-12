@@ -1,0 +1,34 @@
+{
+    "portfolio_links": [
+        {
+            "id": 1,
+            "title": "Online Courses"
+        },
+        {
+            "id": 2,
+            "title": "Open Source"
+        },
+        {
+            "id": 3,
+            "title": "Tutorials"
+        }
+    ],
+    "about_links": [
+        {
+            "id": 1,
+            "title": "About me"
+        },
+        {
+            "id": 2,
+            "title": "How to work with me"
+        },
+        {
+            "id": 3,
+            "title": "What I use"
+        },
+        {
+            "id": 4,
+            "title": "How to support me"
+        }
+    ]
+}
