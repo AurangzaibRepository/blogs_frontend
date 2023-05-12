@@ -1,5 +1,5 @@
 /* eslint-disable import/no-extraneous-dependencies */
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { faMailBulk } from '@fortawesome/free-solid-svg-icons';
 import {
   faGit,
@@ -8,6 +8,7 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 import FooterContents from './FooterContents';
 import BrandIcon from './BrandIcon';
+import FooterService from '../../services/FooterService';
 import './style.css';
 
 function Footer() {
