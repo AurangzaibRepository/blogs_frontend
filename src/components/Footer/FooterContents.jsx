@@ -12,7 +12,7 @@ function FooterContents({ portfolioLinks, aboutLinks }) {
           <ul>
             {portfolioLinks.map((item) => (
               <li key={item.id}>
-                <a href={item.url}>{item.title}</a>
+                <a className="small" href={item.url}>{item.title}</a>
               </li>
             ))}
           </ul>
@@ -23,7 +23,7 @@ function FooterContents({ portfolioLinks, aboutLinks }) {
           <ul>
             {aboutLinks.map((item) => (
               <li key={item.id}>
-                <a href={item.url}>{item.title}</a>
+                <a className="small" href={item.url}>{item.title}</a>
               </li>
             ))}
           </ul>
