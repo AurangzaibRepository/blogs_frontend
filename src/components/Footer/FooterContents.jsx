@@ -11,7 +11,9 @@ function FooterContents({ portfolioLinks, aboutLinks }) {
           <label className="sub-title">PORTFOLIO</label>
           <ul>
             {portfolioLinks.map((item) => (
-              <li key={item.id}>{item.title}</li>
+              <li key={item.id}>
+                <a href={item.url}>{item.title}</a>
+              </li>
             ))}
           </ul>
         </div>
@@ -20,7 +22,9 @@ function FooterContents({ portfolioLinks, aboutLinks }) {
           <label className="sub-title">ABOUT</label>
           <ul>
             {aboutLinks.map((item) => (
-              <li key={item.id}>{item.title}</li>
+              <li key={item.id}>
+                <a href={item.url}>{item.title}</a>
+              </li>
             ))}
           </ul>
         </div>
