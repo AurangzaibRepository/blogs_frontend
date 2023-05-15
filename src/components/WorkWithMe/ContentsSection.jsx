@@ -15,9 +15,11 @@ function ContentsSection({
       <p className="pre-line">{contents}</p>
       {opportunities
       && (
-        opportunities.map((item) => (
-          <li key={item.id}>{item.title}</li>
-        ))
+        <ul>
+            {opportunities.map((item) => (
+              <li key={item.id} className="mt-3">{item.description}</li>
+            ))}
+        </ul>
       )}
     </>
   );
