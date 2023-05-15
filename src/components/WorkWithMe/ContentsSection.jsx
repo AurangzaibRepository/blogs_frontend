@@ -6,12 +6,19 @@ function ContentsSection({
   titleClass,
   title,
   contents,
-  opportunities
+  opportunities,
 }) {
   return (
     <>
       { /* eslint-disable-next-line jsx-a11y/label-has-associated-control */ }
       <label className={`full-width ${titleClass}`}>{title}</label>
+      <p className="pre-line">{contents}</p>
+      {opportunities
+      && (
+        opportunities.map((item) => (
+          <li key={item.id}>{item.title}</li>
+        ))
+      )}
     </>
   );
 }
