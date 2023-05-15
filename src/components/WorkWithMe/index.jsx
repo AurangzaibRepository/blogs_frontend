@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import ContentsSection from '../About/ContentsSection';
+import ContentsSection from './ContentsSection';
 import WorkWithMeService from '../../services/WorkWithMeService';
 import Title from '../layouts/Title';
 
