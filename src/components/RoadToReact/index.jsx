@@ -3,7 +3,7 @@ import imgReactBook from '../../assets/react-book.png';
 
 function RoadToReact() {
   return (
-    <div className="row">
+    <div className="row" id="dv-roadtoreact">
       <div className="col-md-6">
         <img src={imgReactBook} alt="react book" />
       </div>
