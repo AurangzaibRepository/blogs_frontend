@@ -13,7 +13,8 @@ function RoadToReact() {
         <label className="full-width title text-center">The Road To React</label>
         <p>
           Learn React by building real world applications. No setup configuration. No tooling.
-          Plain React in 200+ pages of learning material. Learn React like 50.000+ readers.
+          Plain React in 200+ pages of learning material. Learn React like
+          <strong> 50.000+ readers</strong>
         </p>
       </div>
     </div>
