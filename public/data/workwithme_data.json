@@ -1,6 +1,10 @@
 {
-    "react_developer": "Hello, my name is Robin Wieruch and I am a german/english speaking JavaScript enthusiast. In 2017 I quit my job at a Berlin tech startup. I made the decision to move on after being a software engineer for 2,5 years at this great company. It was a tough decision to make, because the company had a huge impact on me from a personal and professional perspective. It is always difficult to move on. But then again, I didn't want to get too comfortable.\n\nThe next natural step for me was being self-employed. Over the last years, I've put a lot of effort into my website and I started teaching thousands of people about full-stack software engineering and web development with JavaScript. I want to be bold and try to make this next step to have more time for the things that I truly value. I would separate these into four cornerstones: teaching, working, making, and volunteering.",
+    "react_developer": {
+        "title": "React Developer",
+        "description": "Hello, my name is Robin Wieruch and I am a german/english speaking JavaScript enthusiast. In 2017 I quit my job at a Berlin tech startup. I made the decision to move on after being a software engineer for 2,5 years at this great company. It was a tough decision to make, because the company had a huge impact on me from a personal and professional perspective. It is always difficult to move on. But then again, I didn't want to get too comfortable.\n\nThe next natural step for me was being self-employed. Over the last years, I've put a lot of effort into my website and I started teaching thousands of people about full-stack software engineering and web development with JavaScript. I want to be bold and try to make this next step to have more time for the things that I truly value. I would separate these into four cornerstones: teaching, working, making, and volunteering."
+    },
     "teaching": {
+        "title": "Teaching",
         "body": "The first cornerstone of my endeavour is teaching. Writing about my learnings in web development started as a sheer experiment. I enjoyed the process of writing, digging into the problems by trying to explain them to myself, and bringing the solutions on paper in concrete yet simple words. I never expected others to read about them. Yet, I grew an audience of over thousands of daily readers. Many people supported me in my doings and they gave me the opportunity to teach; an activity that I discovered as a meaningful thing to do in my life.\n\nYour opportunities to work with me:",
         "opportunities": [
             {
@@ -14,6 +18,7 @@
         ]
     },
     "working": {
+        "title": "Working: Consulting and Freelancing",
         "body": "My second cornerstone is consulting and freelancing. After working for years with like minded colleagues in the 9 to 6 world, I always wanted to give consulting a shot in my life. Now I thought it would be the perfect time. I would love to work closely with clients on applications and on solving their problems. In this scenario, I am able to shift from being a consultant, who is giving advice and a clear strategy for the application, to being a freelancer who can deep dive into the code and solve problems for you.\n\nSo, if you are seeking for a on-site/remote german/english speaking software engineer, don't hesitate to reach out to me. I want to work with you on your web, mobile, desktop, or embedded applications.",
         "opportunities": [
             {
@@ -39,6 +44,7 @@
         ]
     },
     "making": {
+        "title": "Making",
         "body": "The third cornerstone is making new stuff. While I worked in my last 9 to 6 job, I collected a huge list of ideas. I guess most of the people are keeping such a list, but there is never enough time to tackle all of these items. Recently, it was the first time that I showed my ideas to someone else. I was astonished that I had gathered over 1000 items in various lists and sublists.\n\nAll these items are ideas about applications, things I want to learn, things I would like to teach and things I want to write about. But as full-time employee, I never found the time to do all these things. Maybe I even don't find the time right now, where I have to figure out how to earn my own share, but that's what this adventure is all about.",
         "opportunities": [
             {
@@ -48,6 +54,7 @@
         ]
     },
     "volunteering": {
+        "title": "Voluenteering",
         "body": "As a software engineer, it is too easy to get lost in your tech bubble without thinking about any third-parties and just stick to a certain group of people. But as I see it, it is so valuable to step outside of your bubble to broaden your horizon and to be there for others. Software engineers are often privileged to do such a step. Living a different lifestyle and then again having the opportunity to step in for others.\n\nThat's why I made the decision that I want to accomplish all the previous cornerstones, teaching, making and consulting, from abroad. I want to immerse in different cultures and countries, trying to avoid to be exposed to the tech bubble all the time, and get as much as inspiration from the people in these countries and their culture.\n\nI always found it meaningful to give something back to less blessed people. When traveling, I don't want to spend my days as a tourist in a foreign country. I want to have an impact while traveling. Especially, I want to be able to leave an impact on children's education in developing countries by teaching myself or educating others about it. I deeply hope that I will get to know those small organizations that want to make a change where I can have an impact and spend some of my remaining time outside of the tech bubble.",
         "opportunities": [
             {
