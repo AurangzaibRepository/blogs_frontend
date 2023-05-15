@@ -17,3 +17,8 @@
     padding: 15px 18px;
     text-transform: uppercase;
 }
+
+#dv-roadtoreact button:hover {
+    background-color: #fff;
+    color: #823eb7;
+}
