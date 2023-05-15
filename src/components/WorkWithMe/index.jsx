@@ -48,6 +48,13 @@ function WorkWithMe() {
               contents={data.making.body}
               opportunities={data.making.opportunities}
             />
+            <div className="section-divider" />
+            <ContentsSection
+              titleClass="title text-center"
+              title={data.volunteering.title}
+              contents={data.volunteering.body}
+              opportunities={data.volunteering.opportunities}
+            />
           </>
         )}
       </div>
