@@ -23,4 +23,8 @@ ContentsSection.propTypes = {
   opportunities: PropTypes.instanceOf(Array),
 };
 
+ContentsSection.defaultProps = {
+  opportunities: [],
+};
+
 export default ContentsSection;
