@@ -24,15 +24,22 @@ function WorkWithMe() {
           <>
             <ContentsSection
               titleClass="title text-center"
-              title="React Developer"
-              contents={data.react_developer}
+              title={data.react_developer.title}
+              contents={data.react_developer.body}
             />
             <div className="section-divider" />
             <ContentsSection
               titleClass="title text-center"
-              title="Teaching"
+              title={data.teaching.title}
               contents={data.teaching.body}
               opportunities={data.teaching.opportunities}
+            />
+            <div className="section-divider" />
+            <ContentsSection
+              titleClass="title text-center"
+              title={data.working.title}
+              contents={data.working.body}
+              opportunities={data.working.opportunities}
             />
           </>
         )}
