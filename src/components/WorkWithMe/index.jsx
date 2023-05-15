@@ -21,11 +21,20 @@ function WorkWithMe() {
       <div className="container dv-main">
         {data
         && (
-          <ContentsSection
-            titleClass="title text-center"
-            title="React Developer"
-            contents={data.react_developer}
-          />
+          <>
+            <ContentsSection
+              titleClass="title text-center"
+              title="React Developer"
+              contents={data.react_developer}
+            />
+            <div className="section-divider" />
+            <ContentsSection
+              titleClass="title text-center"
+              title="Teaching"
+              contents={data.teaching.body}
+              opportunities={data.teaching.opportunities}
+            />
+          </>
         )}
       </div>
     </>
