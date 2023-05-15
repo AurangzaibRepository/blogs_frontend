@@ -4,6 +4,7 @@ import ContentsSection from './ContentsSection';
 import PassionsSection from './PassionsSection';
 import SupportSection from './SupportSection';
 import WhatUseSection from './WhatUseSection';
+import RoadToReact from '../RoadToReact';
 import Title from '../layouts/Title';
 
 function About() {
@@ -83,6 +84,8 @@ function About() {
             emailMarketing={whatUseData.email_marketing}
           />
         )}
+        <div className="section-divider" />
+        <RoadToReact />
       </div>
     </>
   );
