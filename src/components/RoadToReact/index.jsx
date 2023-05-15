@@ -16,6 +16,10 @@ function RoadToReact() {
           Plain React in 200+ pages of learning material. Learn React like
           <strong> 50.000+ readers</strong>
         </p>
+        <button type="button">
+          Get the book
+          {' >'}
+        </button>
       </div>
     </div>
   );
