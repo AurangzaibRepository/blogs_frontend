@@ -7,10 +7,11 @@
     min-height: 400px;
 }
 
-#dv-courses label {
+#dv-courses .title {
     border-bottom: 1px solid #e8e8e8;
     font-size: 23px;
     font-weight: 500;
+    margin-bottom: 0px;
     padding: 16px 24px;
     width: 100%;
 }
