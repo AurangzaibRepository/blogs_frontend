@@ -2,8 +2,8 @@ import React from 'react';
 import './style.css';
 
 function Courses() {
-  return(
-    <div className="container dv-main">
+  return (
+    <div className="container dv-main" id="dv-courses">
       <div className="row">
         <div className="col-md-4">
           <div className="dv-box">
