@@ -5,6 +5,7 @@ import Home from './components/Home';
 import Blogs from './components/Blogs';
 import About from './components/About';
 import WorkWithMe from './components/WorkWithMe';
+import Courses from './components/Courses';
 import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -18,6 +19,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/work-with-me" element={<WorkWithMe />} />
+        <Route path="/courses" element={<Courses />} />
       </Routes>
       <Footer />
     </>
