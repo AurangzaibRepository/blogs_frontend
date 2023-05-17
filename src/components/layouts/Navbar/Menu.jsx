@@ -14,6 +14,9 @@ function Menu() {
         <li className="nav-item">
           <Link to="/blogs" className="nav-link">Blogs</Link>
         </li>
+        <li className="nav-item">
+          <Link to="/courses" className="nav-link">Courses</Link>
+        </li>
       </ul>
     </nav>
   );
