@@ -6,3 +6,11 @@
     background-color: #fff;
     min-height: 400px;
 }
+
+#dv-courses label {
+    border-bottom: 1px solid #e8e8e8;
+    font-size: 23px;
+    font-weight: 500;
+    padding: 16px 24px;
+    width: 100%;
+}
