@@ -6,6 +6,7 @@ import {
   faFacebook,
   faTwitter,
 } from '@fortawesome/free-brands-svg-icons';
+import RoadToReact from '../RoadToReact';
 import FooterContents from './FooterContents';
 import BrandIcon from './BrandIcon';
 import FooterService from '../../services/FooterService';
@@ -25,6 +26,8 @@ function Footer() {
 
   return (
     <>
+      <div className="section-divider" />
+      <RoadToReact />
       <div className="section-divider" />
       {data
       && (
