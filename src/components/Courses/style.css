@@ -4,7 +4,6 @@
 
 #dv-courses .dv-box {
     background-color: #fff;
-    min-height: 400px;
 }
 
 #dv-courses .title {
@@ -19,5 +18,14 @@
 #dv-courses img {
     border-bottom: 1px solid #e8e8e8;
     padding: 16px 25px 20px;
+    width: 100%;
+}
+
+#dv-courses .label-unlock {
+    background: #fafafa;
+    color: rgba(0, 0, 0, 0.45);
+    font-size: 21px;
+    padding: 15px 0px;
+    text-align: center;
     width: 100%;
 }
