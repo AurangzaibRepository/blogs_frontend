@@ -11,17 +11,20 @@ function Courses() {
           <div className="row">
             <div className="col-md-4">
               <div className="dv-box">
-                dcfsd
+                { /* eslint-disable-next-line jsx-a11y/label-has-associated-control */ }
+                <label>The Road to React</label>
               </div>
             </div>
             <div className="col-md-4">
               <div className="dv-box">
-                sdf
+                { /* eslint-disable-next-line jsx-a11y/label-has-associated-control */ }
+                <label>The Road to Redux</label>
               </div>
             </div>
             <div className="col-md-4">
               <div className="dv-box">
-                sdfsd
+                { /* eslint-disable-next-line jsx-a11y/label-has-associated-control */ }
+                <label>The Road to GraphQL</label>
               </div>
             </div>
           </div>
