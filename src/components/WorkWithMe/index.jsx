@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import ContentsSection from './ContentsSection';
 import WorkWithMeService from '../../services/WorkWithMeService';
-import RoadToReact from '../RoadToReact';
 import Title from '../layouts/Title';
 
 function WorkWithMe() {
@@ -58,8 +57,6 @@ function WorkWithMe() {
             />
           </>
         )}
-        <div className="section-divider" />
-        <RoadToReact />
       </div>
     </>
   );
