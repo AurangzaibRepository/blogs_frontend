@@ -17,6 +17,8 @@ function Courses() {
                 { /* eslint-disable-next-line jsx-a11y/label-has-associated-control */ }
                 <label className="title">The Road to React</label>
                 <img src={imgReact} alt="react" />
+                { /* eslint-disable-next-line jsx-a11y/label-has-associated-control */ }
+                <label className="label-unlock">Unlock Course</label>
               </div>
             </div>
             <div className="col-md-4">
@@ -24,6 +26,8 @@ function Courses() {
                 { /* eslint-disable-next-line jsx-a11y/label-has-associated-control */ }
                 <label className="title">The Road to Redux</label>
                 <img src={imgRedux} alt="redux" />
+                { /* eslint-disable-next-line jsx-a11y/label-has-associated-control */ }
+                <label className="label-unlock">Unlock Course</label>
               </div>
             </div>
             <div className="col-md-4">
@@ -31,6 +35,8 @@ function Courses() {
                 { /* eslint-disable-next-line jsx-a11y/label-has-associated-control */ }
                 <label className="title">The Road to GraphQL</label>
                 <img src={imgGraphQL} alt="graphql" />
+                { /* eslint-disable-next-line jsx-a11y/label-has-associated-control */ }
+                <label className="label-unlock">Unlock Course</label>
               </div>
             </div>
           </div>
