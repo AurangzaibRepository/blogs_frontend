@@ -9,7 +9,7 @@ function Menu() {
           <Link to="/about" className="nav-link">About</Link>
         </li>
         <li className="nav-item">
-          <Link to="/hire" className="nav-link">Hire</Link>
+          <Link to="/work-with-me" className="nav-link">Hire</Link>
         </li>
         <li className="nav-item">
           <Link to="/blogs" className="nav-link">Blogs</Link>
