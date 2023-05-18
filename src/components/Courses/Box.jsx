@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Box() {
+function Box({ title, icon }) {
   return ();
 }
 
