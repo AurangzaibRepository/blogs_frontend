@@ -11,10 +11,14 @@ function Courses() {
   const [data, setData] = useState();
   const imageList = [imgReact, imgRedux, imgGraphQL];
 
-  const getData = async () {
+  const getData = async () => {
     const courseData = await CoursesService.getData();
     setData(courseData);
-  }
+  };
+
+  useEffect(() => {
+    getData();
+  }, []);
 
   return (
     <>
