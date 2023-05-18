@@ -7,6 +7,8 @@ import imgGraphQL from '../../assets/road-to-graphql.png';
 import './style.css';
 
 function Courses() {
+  const imageList = [imgReact, imgRedux, imgGraphQL];
+
   return (
     <>
       <Title title="Courses" />
