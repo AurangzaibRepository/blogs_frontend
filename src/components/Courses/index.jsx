@@ -33,7 +33,7 @@ function Courses() {
                   <Box
                     title={item.title}
                     image={imageList[index]}
-                    imageAlt="abc"
+                    imageAlt={item.alt}
                   />
                 </div>
               ))
