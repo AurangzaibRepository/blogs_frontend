@@ -1,6 +1,7 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 function FooterContents({ portfolioLinks, aboutLinks }) {
   return (
@@ -23,7 +24,7 @@ function FooterContents({ portfolioLinks, aboutLinks }) {
           <ul>
             {aboutLinks.map((item) => (
               <li key={item.id}>
-                <a className="small" href={item.url}>{item.title}</a>
+                <Link className="small" to={item.url}>{item.title}</Link>
               </li>
             ))}
           </ul>
