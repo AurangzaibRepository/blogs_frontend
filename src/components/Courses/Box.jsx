@@ -26,7 +26,7 @@ function Box({
 Box.propTypes = {
   title: PropTypes.string.isRequired,
   imageAlt: PropTypes.string.isRequired,
-  image: PropTypes.instanceOf(Object).isRequired,
+  image: PropTypes.node.isRequired,
 };
 
 export default Box;
