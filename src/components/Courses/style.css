@@ -29,3 +29,8 @@
     text-align: center;
     width: 100%;
 }
+
+#dv-courses svg {
+    font-size: 19px;
+    margin-right: 7px;
+}
