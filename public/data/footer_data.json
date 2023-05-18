@@ -3,7 +3,7 @@
         {
             "id": 1,
             "title": "Online Courses",
-            "url": "https://courses.robinwieruch.de"
+            "url": "/courses"
         },
         {
             "id": 2,
