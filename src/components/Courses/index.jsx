@@ -26,27 +26,18 @@ function Courses() {
       <div className="dv-main" id="dv-courses">
         <div className="container">
           <div className="row">
-            <div className="col-md-4">
-              <Box
-                title="The Road to React"
-                image={imgReact}
-                imageAlt="react"
-              />
-            </div>
-            <div className="col-md-4">
-              <Box
-                title="The Road to Redux"
-                image={imgRedux}
-                imageAlt="redux"
-              />
-            </div>
-            <div className="col-md-4">
-              <Box
-                title="The Road to GraphQL"
-                image={imgGraphQL}
-                imageAlt="graphql"
-              />
-            </div>
+            {data
+            && (
+              data.map((item, index) => (
+                <div className="col-md-4" key={item.id}>
+                  <Box
+                    title={item.title}
+                    image={imageList[index]}
+                    imageAlt="abc"
+                  />
+                </div>
+              ))
+            )}
           </div>
         </div>
       </div>
