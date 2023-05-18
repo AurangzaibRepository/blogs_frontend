@@ -8,7 +8,13 @@ import imgGraphQL from '../../assets/road-to-graphql.png';
 import './style.css';
 
 function Courses() {
+  const [data, setData] = useState();
   const imageList = [imgReact, imgRedux, imgGraphQL];
+
+  const getData = async () {
+    const courseData = await CoursesService.getData();
+    setData(courseData);
+  }
 
   return (
     <>
