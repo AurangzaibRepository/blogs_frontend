@@ -6,14 +6,14 @@ import { faUnlock } from '@fortawesome/free-solid-svg-icons';
 
 function Box({
   title,
-  icon,
+  image,
   imageAlt,
 }) {
   return (
     <div className="dv-box">
       { /* eslint-disable-next-line jsx-a11y/label-has-associated-control */ }
       <label className="title">{title}</label>
-      <img src={icon} alt={imageAlt} />
+      <img src={image} alt={imageAlt} />
       { /* eslint-disable-next-line jsx-a11y/label-has-associated-control */ }
       <label className="label-unlock">
         <FontAwesomeIcon icon={faUnlock} />
@@ -26,7 +26,7 @@ function Box({
 Box.propTypes = {
   title: PropTypes.string.isRequired,
   imageAlt: PropTypes.string.isRequired,
-  icon: PropTypes.instanceOf(Object).isRequired,
+  image: PropTypes.instanceOf(Object).isRequired,
 };
 
 export default Box;
