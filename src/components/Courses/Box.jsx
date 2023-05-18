@@ -5,4 +5,9 @@ function Box({ title, icon }) {
   return ();
 }
 
+Box.propTypes = {
+  title: PropTypes.string.isRequired,
+  icon: PropTypes.object,
+}
+
 export default Box;
