@@ -6,6 +6,7 @@ import {
   faFacebook,
   faTwitter,
 } from '@fortawesome/free-brands-svg-icons';
+import { Link } from 'react-router-dom';
 import RoadToReact from '../RoadToReact';
 import FooterContents from './FooterContents';
 import BrandIcon from './BrandIcon';
@@ -62,7 +63,7 @@ function Footer() {
         </div>
         <div>
           <a href="mailto:hello@gmail.com" className="small me-4">Contact Me</a>
-          <a href="/legal" className="small">Privacy & Terms</a>
+          <Link className="small" to="/legal">Privacy & Terms</Link>
         </div>
       </div>
     </>
