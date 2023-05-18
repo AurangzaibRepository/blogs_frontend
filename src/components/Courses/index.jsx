@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Box from './Box';
 import Title from '../layouts/Title';
+import CoursesService from '../../services/CoursesService';
 import imgReact from '../../assets/road-to-react.png';
 import imgRedux from '../../assets/road-to-redux.png';
 import imgGraphQL from '../../assets/road-to-graphql.png';
