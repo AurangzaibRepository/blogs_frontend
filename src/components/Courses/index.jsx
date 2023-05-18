@@ -5,11 +5,17 @@ import CoursesService from '../../services/CoursesService';
 import imgReact from '../../assets/road-to-react.png';
 import imgRedux from '../../assets/road-to-redux.png';
 import imgGraphQL from '../../assets/road-to-graphql.png';
+import imgFirebase from '../../assets/road-to-firebase.png';
 import './style.css';
 
 function Courses() {
   const [data, setData] = useState();
-  const imageList = [imgReact, imgRedux, imgGraphQL];
+  const imageList = [
+    imgReact,
+    imgRedux,
+    imgGraphQL,
+    imgFirebase,
+  ];
 
   const getData = async () => {
     const courseData = await CoursesService.getData();
