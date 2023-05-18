@@ -1,6 +1,5 @@
 import React from 'react';
-import { faUnlock } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Box from './Box';
 import Title from '../layouts/Title';
 import imgReact from '../../assets/road-to-react.png';
 import imgRedux from '../../assets/road-to-redux.png';
@@ -15,40 +14,25 @@ function Courses() {
         <div className="container">
           <div className="row">
             <div className="col-md-4">
-              <div className="dv-box">
-                { /* eslint-disable-next-line jsx-a11y/label-has-associated-control */ }
-                <label className="title">The Road to React</label>
-                <img src={imgReact} alt="react" />
-                { /* eslint-disable-next-line jsx-a11y/label-has-associated-control */ }
-                <label className="label-unlock">
-                  <FontAwesomeIcon icon={faUnlock} />
-                  Unlock Course
-                </label>
-              </div>
+              <Box
+                title="The Road to React"
+                image={imgReact}
+                imageAlt="react"
+              />
             </div>
             <div className="col-md-4">
-              <div className="dv-box">
-                { /* eslint-disable-next-line jsx-a11y/label-has-associated-control */ }
-                <label className="title">The Road to Redux</label>
-                <img src={imgRedux} alt="redux" />
-                { /* eslint-disable-next-line jsx-a11y/label-has-associated-control */ }
-                <label className="label-unlock">
-                  <FontAwesomeIcon icon={faUnlock} />
-                  Unlock Course
-                </label>
-              </div>
+              <Box
+                title="The Road to Redux"
+                image={imgRedux}
+                imageAlt="redux"
+              />
             </div>
             <div className="col-md-4">
-              <div className="dv-box">
-                { /* eslint-disable-next-line jsx-a11y/label-has-associated-control */ }
-                <label className="title">The Road to GraphQL</label>
-                <img src={imgGraphQL} alt="graphql" />
-                { /* eslint-disable-next-line jsx-a11y/label-has-associated-control */ }
-                <label className="label-unlock">
-                  <FontAwesomeIcon icon={faUnlock} />
-                  Unlock Course
-                </label>
-              </div>
+              <Box
+                title="The Road to GraphQL"
+                image={imgGraphQL}
+                imageAlt="graphql"
+              />
             </div>
           </div>
         </div>
