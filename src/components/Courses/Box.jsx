@@ -11,6 +11,7 @@ function Box({
     <div className="dv-box">
       { /* eslint-disable-next-line jsx-a11y/label-has-associated-control */ }
       <label className="title">{title}</label>
+      <img src={icon} alt={imageAlt} />
     </div>
   );
 }
