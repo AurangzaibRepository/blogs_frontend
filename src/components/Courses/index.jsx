@@ -29,13 +29,13 @@ function Courses() {
   return (
     <>
       <Title title="Courses" />
-      <div className="dv-main" id="dv-courses">
+      <div className="dv-main pt-4" id="dv-courses">
         <div className="container">
           <div className="row">
             {data
             && (
               data.map((item, index) => (
-                <div className="col-md-4" key={item.id}>
+                <div className="col-md-4 pt-4 mt-1" key={item.id}>
                   <Box
                     title={item.title}
                     image={imageList[index]}
