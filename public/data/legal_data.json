@@ -14,5 +14,42 @@
             "id": 3,
             "title": "10439 Berlin"
         }
+    ],
+    "terms": [
+        {
+            "id": 1,
+            "title": "Liability for Content",
+            "description": "While the contents of our pages have been created with utmost care and due diligence, we cannot assume liability for the completeness and timeliness of the contents. Pursuant to § 7, Paragraph 1 of the German Broadcast Media Act (TMG), and in accordance with general law, as service provider we are responsible for our own content on this web page. However, according to §§ 8 to 10 TMG we, as service provider, are neither obliged to monitor transmitted or stored external information, nor to research circumstances that suggest an illegal activity. Obligations to remove or block the use of information remain, in accordance with legal regulations, unaffected. Any liability in this respect can be assumed only from the moment that knowledge of the specific breach of law is obtained. In the event that the corresponding violations become known, we shall remove these contents immediately."
+        },
+        {
+            "id": 2,
+            "title": "Liability for Links",
+            "description": "Our offer contains links to external websites operated by third parties, on whose contents we have no influence. Therefore, we cannot assume liability for these contents. Instead, it is the relevant supplier or operator of the linked web pages who is responsible for the content of these pages. The linked pages were inspected for possible legal infringements at the time the link was established. At the time of linking, no unlawful contents were detectable. Permanent monitoring of the content of the linked pages is infeasible without any specific indication of an infringement of rights. In the event that corresponding violations become known, we shall remove the corresponding links immediately."
+        },
+        {
+            "id": 3,
+            "title": "Copyright",
+            "description": "The contents and works on these websites, as prepared and displayed by its operator, are subject to German copyright law. Their duplication, processing, distribution, or any form of commercialization beyond the scope of the copyright law requires the written consent of the respective author or creator. Copies and downloads are allowed solely for private and non-commercial purposes. Insofar as this page's contents were not created by its operator, third-party copyrights will be respected and observed. Should you still have reason to believe that a copyright violation has occurred despite the precautionary measures taken, we kindly ask you to notify us. In the event that the corresponding violations become known, we shall remove this content immediately."
+        },
+        {
+            "id": 4,
+            "title": "Data and Privacy Protection/Data Privacy",
+            "description": "It is usually possible to use our web page without providing personal information. Collection of personal data (e.g. name, address, or email-address) will be optional where possible. Without your explicit consent, your data will not be passed on to third parties. Further particulars are governed by our General Terms and Conditions.\n\nWe would like to point out that the transfer of data via the internet (e.g. when communicating via e-mail) may involve security gaps. A complete protection of data against third-party access is impossible.\n\nWe explicitly prohibit the use of the contact data published within the framework of this imprint by third parties for sending non-requested advertising material and information. The operator of the pages reserve the right to take legal action in the case of transmission of non-solicited advertising material (e. g. spam mail)."
+        },
+        {
+            "id": 5,
+            "title": "Data Privacy Protection when using Facebook Plug-Ins (Like-Button)",
+            "description": "Our pages integrate plug-ins of the social network Facebook. You can recognize them either by the Facebook logo or the 'Like' button on our page. For an overview of Facebook plug-ins, please follow this link. When you visit our pages, the plug-in will create a direct connection between your browser and the Facebook server. Thus, Facebook will receive the information about you visiting our page by your IP address. You can link our pages' contents with your Facebook profile should you use the 'Like' button while being logged in to your Facebook account. This way, Facebook can allocate the visit to your Facebook account. We wish to point out that we, as operator of the page, will not be given any information about the content of the data transmitted, nor about Facebook's usage of them. For further information, please see Facebook's data privacy statement. If you do not wish Facebook to allocate your visit of our web pages to your Facebook account, please log out of your Facebook account prior to your visit."
+        },
+        {
+            "id": 6,
+            "title": "Data Privacy Protection when using Twitter-Plugins",
+            "description": "Our pages integrate plug-ins of the social network Twitter. You can recognize them either by the Twitter logo on our page. For an overview of Twitter plug-ins, please follow this link. When you visit our pages, the plug-in will create a direct connection between your browser and the Twitter server. Thus, Twitter will receive the information about you visiting our page by your IP address. You can link our pages' contents with your Twitter profile should you use the Twitter button while being logged in to your Twitter account. This way, Twitter can allocate the visit to your Twitter account. We wish to point out that we, as operator of the page, will not be given any information about the content of the data transmitted, nor about Twitter's usage of them. For further information, please see Twitter's data privacy statement. If you do not wish Twitter to allocate your visit of our web pages to your Twitter account, please log out of your Twitter account prior to your visit."
+        },
+        {
+            "id": 7,
+            "title": "Data Privacy Protection when using Reddit's 'Share' Button",
+            "description": "Our pages integrate buttons of the social network Reddit. You can recognize them by the Reddit logo on our page. You can link our pages' contents with your Reddit profile should you use the Reddit button while being logged in to your Reddit account. This way, Reddit can allocate the visit to your Reddit account. We wish to point out that we, as operator of the page, will not be given any information about the content of the data transmitted, nor about Reddit's usage of them. For further information, please see Reddit's data privacy statement. If you do not wish Reddit to allocate your visit of our web pages to your Reddit account, don't use the Reddit button."
+        }
     ]
 }
