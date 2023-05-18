@@ -2,19 +2,23 @@
     "courses": [
         {
             "id": 1,
-            "title": "The Road to React"
+            "title": "The Road to React",
+            "alt": "react"
         },
         {
             "id": 2,
-            "title": "The Road to Redux"
+            "title": "The Road to Redux",
+            "alt": "redux"
         },
         {
             "id": 3,
-            "title": "The Road to GraphQL"
+            "title": "The Road to GraphQL",
+            "alt": "graphql"
         },
         {
             "id": 4,
-            "title": "The Road to Firebase"
+            "title": "The Road to Firebase",
+            "alt": "firebase"
         }
     ]
 }
