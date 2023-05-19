@@ -10,6 +10,10 @@ function Legal() {
     setData(legalData);
   };
 
+  useEffect(() => {
+    getData();
+  }, []);
+
   return (
     <>
       <Title title="Legal Notice and Terms" />
