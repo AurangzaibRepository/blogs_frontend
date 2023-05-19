@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Title from '../layouts/Title';
 import ContentsSection from '../About/ContentsSection';
 import LegalService from '../../services/LegalService';
+import './style.css';
 
 function Legal() {
   const [data, setData] = useState();
