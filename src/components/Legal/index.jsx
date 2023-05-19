@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Title from '../layouts/Title';
+import ContentsSection from '../About/ContentsSection';
 import LegalService from '../../services/LegalService';
 
 function Legal() {
@@ -29,6 +30,16 @@ function Legal() {
               <li key={item.id}>{item.title}</li>
             ))}
           </ul>
+          {data.terms.map((item) => (
+            <>
+              <div className="section-divider" />
+              <ContentsSection
+                titleClass="sub-title"
+                title={item.title}
+                contents={item.description}
+              />
+            </>
+          ))}
         </>
         )}
       </div>
