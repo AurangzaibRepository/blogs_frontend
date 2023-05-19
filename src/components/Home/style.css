@@ -6,3 +6,11 @@
     justify-content: center;
     height: 900px;
 }
+
+#dv-home #label-title {
+    color: #fff;
+    font-weight: 300;
+    font-size: 60px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
