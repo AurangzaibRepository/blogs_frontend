@@ -6,7 +6,7 @@ function Home() {
   return (
     <>
       <Title title="Home" />
-      <div style={{ backgroundImage: `url(${imgBanner})` }} />
+      <div className="dv-banner" style={{ backgroundImage: `url(${imgBanner})` }} />
     </>
   );
 }
