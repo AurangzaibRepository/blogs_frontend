@@ -32,14 +32,14 @@ function Legal() {
             ))}
           </ul>
           {data.terms.map((item) => (
-            <>
+            <div key={item.id}>
               <div className="section-divider" />
               <ContentsSection
                 titleClass="sub-title"
                 title={item.title}
                 contents={item.description}
               />
-            </>
+            </div>
           ))}
         </>
         )}
