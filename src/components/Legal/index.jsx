@@ -24,6 +24,11 @@ function Legal() {
           { /* eslint-disable-next-line jsx-a11y/label-has-associated-control */ }
           <label className="full-width title text-center">{data.title}</label>
           <p className="re-line">{data.description}</p>
+          <ul>
+            {data.names.map((item) => (
+              <li key={item.id}>{item.title}</li>
+            ))}
+          </ul>
         </>
         )}
       </div>
