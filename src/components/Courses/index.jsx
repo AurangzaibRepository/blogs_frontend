@@ -29,7 +29,7 @@ function Courses() {
   return (
     <>
       <Title title="Courses" />
-      <div className="dv-main pt-4" id="dv-courses">
+      <div className="dv-main" id="dv-courses">
         <div className="container">
           <div className="row">
             {data
