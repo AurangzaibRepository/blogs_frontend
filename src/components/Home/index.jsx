@@ -1,6 +1,7 @@
 import React from 'react';
 import Title from '../layouts/Title';
 import imgBanner from '../../assets/home/banner.jpg';
+import './style.css';
 
 function Home() {
   return (
