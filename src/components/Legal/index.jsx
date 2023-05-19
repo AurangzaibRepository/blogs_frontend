@@ -18,7 +18,7 @@ function Legal() {
   return (
     <>
       <Title title="Legal Notice and Terms" />
-      <div className="container dv-main">
+      <div className="container dv-main" id="dv-legal">
         {data
         && (
         <>
