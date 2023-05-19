@@ -3,6 +3,13 @@ import Title from '../layouts/Title';
 import LegalService from '../../services/LegalService';
 
 function Legal() {
+  const [data, setData] = useState();
+
+  const getData = async () => {
+    const legalData = await LegalService.getData();
+    setData(legalData);
+  };
+
   return (
     <>
       <Title title="Legal Notice and Terms" />
