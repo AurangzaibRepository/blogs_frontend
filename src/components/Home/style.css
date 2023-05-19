@@ -1,5 +1,8 @@
 #dv-home #dv-banner {
+    align-items: center;
     background-position: center;
     background-size: cover;
+    display: flex;
+    justify-content: center;
     height: 900px;
 }
