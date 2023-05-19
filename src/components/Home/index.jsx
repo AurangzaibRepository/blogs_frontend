@@ -7,7 +7,10 @@ function Home() {
   return (
     <div id="dv-home">
       <Title title="Home" />
-      <div id="dv-banner" style={{ backgroundImage: `url(${imgBanner})` }} />
+      <div id="dv-banner" style={{ backgroundImage: `url(${imgBanner})` }}>
+        { /* eslint-disable-next-line jsx-a11y/label-has-associated-control */ }
+        <label className="label-title">Robin Wieruch</label>
+      </div>
     </div>
   );
 }
