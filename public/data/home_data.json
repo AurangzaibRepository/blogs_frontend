@@ -5,7 +5,7 @@
     },
     "what_i_offer": {
         "caption": "Why you might want to hire me.",
-        "properties": [
+        "items": [
             {
                 "id": 1,
                 "title": "Workshops",
@@ -35,6 +35,23 @@
                 "id": 6,
                 "title": "Technical Writing",
                 "description": "Writing tutorials about your technical product, open source work, or API (all related to JavaScript) to get more publicity for it."
+            }
+        ]
+    },
+    "Portfolio": {
+        "caption": "What you can learn from me.",
+        "items": [
+            {
+                "id": 1,
+                "title": "Online Courses"
+            },
+            {
+                "id": 2,
+                "title": "Open Source"
+            },
+            {
+                "id": 3,
+                "title": "Tutorials"
             }
         ]
     }
