@@ -2,5 +2,40 @@
     "about_us": {
         "caption": "Get to know me before you dive into my content.",
         "description": "I am a self-employed software and web engineer dedicated to learning and teaching JavaScript for client-server architectures. After obtaining my Master's Degree in computer science, I gained experience from the startup world, where I used JavaScript intensively during both my professional life and spare time. Eventually it led me to teach others about these topics and to offer online courses and on-site consulting for companies. I am happy to welcome you on my website :-)"
+    },
+    "what_i_offer": {
+        "caption": "Why you might want to hire me.",
+        "properties": [
+            {
+                "id": 1,
+                "title": "Workshops",
+                "description": "Teaching your team on-site/remote to get them up to speed with the latest web technologies for client-server applications in JavaScript."
+            },
+            {
+                "id": 2,
+                "title": "Code Audit",
+                "description": "Conducting code reviews for your JavaScript application together with your team or a single person which usually last 2-3 days."
+            },
+            {
+                "id": 3,
+                "title": "MVP",
+                "description": "Bringing your idea to code from zero to one as a minimal viable product (MVP) and beyond within a well-architected application."
+            },
+            {
+                "id": 4,
+                "title": "Complex Problems",
+                "description": "Solving complex problems in JavaScript code which you want to have eliminated in your application's code base but no one dares to fix."
+            },
+            {
+                "id": 5,
+                "title": "Writing Code",
+                "description": "Coding along with your team on a large scale application to make your customers happy with new features and performance improvements."
+            },
+            {
+                "id": 6,
+                "title": "Technical Writing",
+                "description": "Writing tutorials about your technical product, open source work, or API (all related to JavaScript) to get more publicity for it."
+            }
+        ]
     }
 }
