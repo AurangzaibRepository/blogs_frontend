@@ -113,5 +113,52 @@
                 "description": "Lots of demand for JavaScript on-site or remote training, implementations for MVPs, code reviews, or complex JavaScript problem solving, led me to being self-employed."
             }
         ]
+    },
+    "testimonials": {
+        "caption": "What industry leaders are saying",
+        "items": [
+            {
+                "id": 1,
+                "title": "Shawn Wang",
+                "post": "Developer Experience at Netlify",
+                "description": "Robin is one of the most consistently high quality React educators. His approach directly addresses practical concerns you *will* face in your daily React work, without talking down to you or wasting your time with fluff. Don’t just take my word for it - look at his public work and you’ll see"
+            },
+            {
+                "id": 2,
+                "title": "Tania Rascia",
+                "post": "JS Dev, Online Educator",
+                "description": "Robin is an excellent teacher. His articles and tutorials are in-depth and informative, and his code is clear and concise. I've found an answer on his site countless times when researching a problem, and I know that's one less article I have to write."
+            },
+            {
+                "id": 3,
+                "title": "Kent C. Dodds",
+                "post": "Full-time JavaScript Instructor",
+                "description": "Everything that I've read from Robin has been top tier quality stuff. There are blog posts that I have wanted to write, but then I found one by Robin and decided I didn't need to. Fantastic content"
+            },
+            {
+                "id": 4,
+                "title": "Christian Nwamba",
+                "post": "JS Dev, Organizer of Concatenate",
+                "description": "You can tell how much time Robin has put into a teaching piece when you consume his content. I have partnered with Robin and he sets the bar high for other teachers and content creators – this results to a quality learning ecosystem for his students regardless if a content or course was thought by him or not."
+            },
+            {
+                "id": 5,
+                "title": "Dan Abramov",
+                "post": "React.js Core Team",
+                "description": "I haven't read this book yet, but the previous educational materials made by Robin were nothing short of amazing. Thanks for creating this content and putting it out there!"
+            },
+            {
+                "id": 6,
+                "title": "Preethi Kasireddy",
+                "post": "Founder & CEO of TruStory",
+                "description": "If it's anything to do with React and it's written by Robin, you can trust that it'll be world-class. His books are some of the best content you'll find on the web for learning React."
+            },
+            {
+                "id": 7,
+                "title": "Kamran Ahmed",
+                "post": "Founder & CEO of roadmap.sh",
+                "description": "I have known Robin through his content for 5+ years; I have read his books and several of his blog posts. Robin is an excellent teacher and content creator. I can guarantee that you'll be hard pressed to find anyone knowing React and the ecosystem more than Robin."
+            }
+        ]
     }
 }
