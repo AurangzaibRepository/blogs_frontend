@@ -14,3 +14,10 @@
     letter-spacing: 5px;
     text-transform: uppercase;
 }
+
+#dv-home #span-subtitle {
+    color: #b2b2b2;
+    font-size: 20px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
