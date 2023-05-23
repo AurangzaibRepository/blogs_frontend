@@ -54,5 +54,64 @@
                 "title": "Tutorials"
             }
         ]
+    },
+    "vita": {
+        "caption": "My professional story.",
+        "items": [
+            {
+                "id": 1,
+                "title": "Master of Science",
+                "year": "2009 - 2014",
+                "description": "I graduated with a master of science in computer science. Lots of this knowledge can be applied for more complex problems in client-server architectures."
+            },
+            {
+                "id": 2,
+                "title": "Freelancer",
+                "year": "2010 - 2014",
+                "description": "While studing computer science, I got my hands dirty by writing JavaScript, Java, and C# applications for several clients in Germany."
+            },
+            {
+                "id": 3,
+                "title": "Startups",
+                "year": "2014 - 2017",
+                "description": "I worked closely with an exceptional team of engineers at a company in Berlin developing large scale applications for thousands of customers."
+            },
+            {
+                "id": 4,
+                "title": "React Book",
+                "year": "2016",
+                "description": "This year I published my first book about React.js. Within the first month it had more than 10.000 readers and today it is one of the most popular React.js books."
+            },
+            {
+                "id": 4,
+                "title": "Redux Book",
+                "year": "2017",
+                "description": "I published my second book about state management with Redux in React.js which I took one level further by packaging it as a full-blown online course."
+            },
+            {
+                "id": 5,
+                "title": "GraphQL Book",
+                "year": "2018",
+                "description": "As an early adopter of GraphQL in my recent jobs, I wrote my third book about it for modern client-server applications using GraphQL in JavaScript."
+            },
+            {
+                "id": 6,
+                "title": "Developer Magazines",
+                "year": "2018",
+                "description": "Every other month I write for a German software developer magazine educational content about JavaScript and its ecosystem."
+            },
+            {
+                "id": 7,
+                "title": "Firebase Book",
+                "year": "2018",
+                "description": "Later this year, I published my fourth book/course about Firebase in React to build modern frontend applications without worrying about your backend application."
+            },
+            {
+                "id": 8,
+                "title": "Self-Employed",
+                "year": "2017 - TODAY",
+                "description": "Lots of demand for JavaScript on-site or remote training, implementations for MVPs, code reviews, or complex JavaScript problem solving, led me to being self-employed."
+            }
+        ]
     }
 }
