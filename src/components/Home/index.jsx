@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import HomeService from '../../services/HomeService';
 import Title from '../layouts/Title';
 import imgBanner from '../../assets/home/banner.jpg';
 import './style.css';
