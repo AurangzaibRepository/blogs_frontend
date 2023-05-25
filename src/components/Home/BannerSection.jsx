@@ -1,4 +1,6 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+import imgBanner from '../../assets/home/banner.jpg';
 
 function BannerSection() {
   return (
