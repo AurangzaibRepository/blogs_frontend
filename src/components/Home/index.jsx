@@ -12,6 +12,10 @@ function Home() {
     setData(homeData);
   };
 
+  useEffect(() => {
+    getData();
+  }, []);
+
   return (
     <div id="dv-home">
       <Title title="Home" />
