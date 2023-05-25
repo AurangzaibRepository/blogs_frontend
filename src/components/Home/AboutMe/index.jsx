@@ -1,6 +1,7 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import PropTypes from 'prop-types';
+import Icons from './Icons';
 import imgAboutMe from '../../../assets/home/about_me.jpg';
 
 function AboutMeSection({
@@ -22,6 +23,7 @@ function AboutMeSection({
           src={imgAboutMe}
           alt="about me"
         />
+        <Icons />
         <p className="pre-line mt-5">{description}</p>
       </div>
     </div>
