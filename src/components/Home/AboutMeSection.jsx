@@ -8,10 +8,10 @@ function AboutMeSection({
   description,
 }) {
   return (
-    <div>
+    <div className="mt-5">
       <div className="text-center">
         { /* eslint-disable-next-line jsx-a11y/label-has-associated-control */ }
-        <label className="title">{title}</label>
+        <label className="title mb-0">{title}</label>
         <br />
         <span id="span-subtitle">{caption}</span>
       </div>
