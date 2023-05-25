@@ -3,7 +3,7 @@ import HomeService from '../../services/HomeService';
 import Title from '../layouts/Title';
 import BannerSection from './BannerSection';
 import AboutMeSection from './AboutMe';
-import WhatIOffer from './WhatIOffer';
+import WhatIOfferSection from './WhatIOffer';
 import './style.css';
 
 function Home() {
@@ -35,6 +35,11 @@ function Home() {
               description={data.about_me.description}
             />
             <div className="section-divider" />
+            <WhatIOfferSection
+              title={data.what_i_offer.title}
+              caption={data.what_i_offer.caption}
+              items={data.what_i_offer.items}
+            />
           </div>
         </>
       )}
