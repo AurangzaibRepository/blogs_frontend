@@ -5,6 +5,13 @@ import imgBanner from '../../assets/home/banner.jpg';
 import './style.css';
 
 function Home() {
+  const [data, setData] = useState();
+
+  const getData = async () => {
+    const homeData = await HomeService.getData();
+    setData(homeData);
+  };
+
   return (
     <div id="dv-home">
       <Title title="Home" />
