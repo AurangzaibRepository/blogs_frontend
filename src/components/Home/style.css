@@ -25,3 +25,8 @@
 #dv-home #img-aboutme {
     border-radius: 50%;
 }
+
+#dv-aboutme svg {
+    color: #333;
+    font-size: 40px;
+}
