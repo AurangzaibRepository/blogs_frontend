@@ -14,6 +14,7 @@ function AboutMeSection({
         <label className="title mb-0">{title}</label>
         <br />
         <span id="span-subtitle">{caption}</span>
+        <p className="pre-line mt-4">{description}</p>
       </div>
     </div>
   );
