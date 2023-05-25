@@ -1,3 +1,4 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import PropTypes from 'prop-types';
 import imgBanner from '../../assets/home/banner.jpg';
@@ -14,5 +15,10 @@ function BannerSection({ title, subTitle }) {
     </div>
   );
 }
+
+BannerSection.propTypes = {
+  title: PropTypes.string.isRequired,
+  subTitle: PropTypes.string.isRequired,
+};
 
 export default BannerSection;
