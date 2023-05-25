@@ -1,7 +1,7 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import PropTypes from 'prop-types';
-import imgAboutMe from '../../assets/home/about_me.jpg';
+import imgAboutMe from '../../../assets/home/about_me.jpg';
 
 function AboutMeSection({
   title,
