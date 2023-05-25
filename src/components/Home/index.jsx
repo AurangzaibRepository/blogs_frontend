@@ -33,6 +33,7 @@ function Home() {
               caption={data.about_me.caption}
               description={data.about_me.description}
             />
+            <div className="section-divider" />
           </div>
         </>
       )}
