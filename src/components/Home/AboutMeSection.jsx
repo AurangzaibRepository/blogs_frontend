@@ -20,6 +20,7 @@ function AboutMeSection({
 }
 
 AboutMeSection.propTypes = {
+  title: PropTypes.string.isRequired,
   caption: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
 };
