@@ -2,7 +2,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function AboutMeSection() {
+function AboutMeSection({ caption, description }) {
   return (
     <div>
       <div className="text-center">
