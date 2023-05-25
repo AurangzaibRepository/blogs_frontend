@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import HomeService from '../../services/HomeService';
 import Title from '../layouts/Title';
 import BannerSection from './BannerSection';
+import AboutMeSection from './AboutMeSection';
 import './style.css';
 
 function Home() {
