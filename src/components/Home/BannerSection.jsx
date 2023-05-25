@@ -2,14 +2,14 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import imgBanner from '../../assets/home/banner.jpg';
 
-function BannerSection() {
+function BannerSection({ title, subTitle }) {
   return (
     <div id="dv-banner" style={{ backgroundImage: `url(${imgBanner})` }}>
       <div className="text-center">
         { /* eslint-disable-next-line jsx-a11y/label-has-associated-control */ }
-        <label id="label-title">Robin Wieruch</label>
+        <label id="label-title">{title}</label>
         <br />
-        <span id="span-subtitle">German Software Engineer for React.js, Node.js and GraphQL</span>
+        <span id="span-subtitle">{subTitle}</span>
       </div>
     </div>
   );
