@@ -19,4 +19,10 @@ function WhatIOffer({
   );
 }
 
+WhatIOffer.propTypes = {
+  title: PropTypes.string.isRequired,
+  caption: PropTypes.string.isRequired,
+  items: PropTypes.instanceOf(Array).isRequired,
+};
+
 export default WhatIOffer;
