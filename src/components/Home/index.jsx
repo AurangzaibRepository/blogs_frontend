@@ -3,6 +3,7 @@ import HomeService from '../../services/HomeService';
 import Title from '../layouts/Title';
 import BannerSection from './BannerSection';
 import AboutMeSection from './AboutMe';
+import WhatIOffer from './WhatIOffer';
 import './style.css';
 
 function Home() {
