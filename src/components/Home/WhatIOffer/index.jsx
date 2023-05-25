@@ -2,7 +2,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function WhatIOffer({
+function WhatIOfferSection({
   title,
   caption,
   items,
@@ -19,10 +19,10 @@ function WhatIOffer({
   );
 }
 
-WhatIOffer.propTypes = {
+WhatIOfferSection.propTypes = {
   title: PropTypes.string.isRequired,
   caption: PropTypes.string.isRequired,
   items: PropTypes.instanceOf(Array).isRequired,
 };
 
-export default WhatIOffer;
+export default WhatIOfferSection;
