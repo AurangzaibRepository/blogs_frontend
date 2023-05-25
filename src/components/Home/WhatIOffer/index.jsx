@@ -1,7 +1,12 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function WhatIOffer() {
+function WhatIOffer({
+  title,
+  caption,
+  items,
+}) {
   return (
     <div id="dv-whatoffer">
       <div className="text-center">
