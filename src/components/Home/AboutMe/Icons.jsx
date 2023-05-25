@@ -9,17 +9,17 @@ import BrandIcon from '../../Footer/BrandIcon';
 
 function Icons() {
   return (
-    <div className="mt-3">
+    <div className="mt-4 pt-3">
       <BrandIcon
-        className="me-4"
+        className="me-4 pe-2"
         icon={faTwitter}
       />
       <BrandIcon
-        className="me-4"
+        className="me-4 pe-2"
         icon={faGit}
       />
       <BrandIcon
-        className="me-4"
+        className="me-4 pe-2"
         icon={faFacebook}
       />
       <BrandIcon
