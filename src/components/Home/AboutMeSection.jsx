@@ -13,6 +13,11 @@ function AboutMeSection({ caption, description }) {
       </div>
     </div>
   );
+}
+
+AboutMeSection.propTypes = {
+  caption: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
 };
 
 export default AboutMeSection;
