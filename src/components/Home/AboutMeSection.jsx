@@ -16,7 +16,12 @@ function AboutMeSection({
         <br />
         <span id="span-subtitle">{caption}</span>
         <br />
-        <img className="mt-5" src={imgAboutMe} alt="about me" />
+        <img
+          id="img-aboutme"
+          className="mt-5"
+          src={imgAboutMe}
+          alt="about me"
+        />
         <p className="pre-line mt-5">{description}</p>
       </div>
     </div>
