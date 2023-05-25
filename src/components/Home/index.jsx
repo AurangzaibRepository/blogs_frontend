@@ -19,6 +19,13 @@ function Home() {
   return (
     <div id="dv-home">
       <Title title="Home" />
+      {data
+      && (
+        <BannerSection
+          title={data.banner.title}
+          subTitle={data.banner.sub_title}
+        />
+      )}
     </div>
   );
 }
