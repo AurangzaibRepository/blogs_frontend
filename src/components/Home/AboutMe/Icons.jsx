@@ -11,18 +11,22 @@ function Icons() {
   return (
     <div className="mt-4 pt-3">
       <BrandIcon
+        url="https://www.twitter.com"
         className="me-4 pe-2"
         icon={faTwitter}
       />
       <BrandIcon
+        url="https://www.github.com"
         className="me-4 pe-2"
         icon={faGit}
       />
       <BrandIcon
+        url="https://www.facebook.com"
         className="me-4 pe-2"
         icon={faFacebook}
       />
       <BrandIcon
+        url="mailto:test@gmail.com"
         icon={faMailBulk}
       />
     </div>
