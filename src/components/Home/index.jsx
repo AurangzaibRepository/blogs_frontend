@@ -22,10 +22,17 @@ function Home() {
       <Title title="Home" />
       {data
       && (
-        <BannerSection
-          title={data.banner.title}
-          subTitle={data.banner.sub_title}
-        />
+        <>
+          <BannerSection
+            title={data.banner.title}
+            subTitle={data.banner.sub_title}
+          />
+          <AboutMeSection
+            title={data.about_me.title}
+            caption={data.about_me.caption}
+            description={data.about_me.description}
+          />
+        </>
       )}
     </div>
   );
