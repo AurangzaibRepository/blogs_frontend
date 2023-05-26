@@ -1,19 +1,20 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function OfferBox({
-    icon,
-    title,
-    description,
+  icon,
+  title,
+  description,
 }) {
   return (
     <div className="col-md-4 mt-5" key={item.id}>
-      <FontAwesomeIcon icon={} />
+      <FontAwesomeIcon icon={icon} />
       <br />
       { /* eslint-disable-next-line jsx-a11y/label-has-associated-control */ }
-      <label className="sub-title mb-4 mt-0">{item.title}</label>
-      <p>{}</p>
+      <label className="sub-title mb-4 mt-0">{title}</label>
+      <p>{description}</p>
     </div>
   );
 }
