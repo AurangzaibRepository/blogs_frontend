@@ -4,6 +4,7 @@ import Title from '../layouts/Title';
 import BannerSection from './BannerSection';
 import AboutMeSection from './AboutMe';
 import WhatIOfferSection from './WhatIOffer';
+import PortfolioSection from './Portfolio';
 import './style.css';
 
 function Home() {
