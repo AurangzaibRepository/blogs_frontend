@@ -24,10 +24,10 @@ function PortfolioSection({
         <br />
         <span id="span-subtitle">{caption}</span>
         <div className="row mt-3 pt-2 justify-content-center">
-          {items.map((item) => (
+          {items.map((item, index) => (
             <div className="col-md-6 mt-4">
               <div className="portfolio-box">
-                <img src={Portfolio1} alt="Portfolio1" />
+                <img src={imageList[index]} alt="Portfolio1" />
                 {item.title}
               </div>
             </div>
