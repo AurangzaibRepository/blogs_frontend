@@ -9,7 +9,7 @@ function OfferBox({
   description,
 }) {
   return (
-    <div className="col-md-4 mt-5" key={item.id}>
+    <div className="col-md-4 mt-5">
       <FontAwesomeIcon icon={icon} />
       <br />
       { /* eslint-disable-next-line jsx-a11y/label-has-associated-control */ }
@@ -18,5 +18,11 @@ function OfferBox({
     </div>
   );
 }
+
+OfferBox.propTypes = {
+  icon: PropTypes.objectOf(PropTypes.shape).isRequired,
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+};
 
 export default OfferBox;
