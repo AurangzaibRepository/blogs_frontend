@@ -42,6 +42,10 @@ function Home() {
               items={data.what_i_offer.items}
             />
             <div className="section-divider" />
+            <PortfolioSection
+              title={data.portfolio.title}
+              description={data.portfolio.description}
+            />
           </div>
         </>
       )}
