@@ -25,7 +25,7 @@ function WhatIOfferSection({
         <span id="span-subtitle">{caption}</span>
         <div className="row mt-4">
           {items.map((item) => (
-            <div className="col-md-4 mt-4" key={item.id}>
+            <div className="col-md-4 mt-5" key={item.id}>
               <FontAwesomeIcon icon={faTree} />
               <br />
               { /* eslint-disable-next-line jsx-a11y/label-has-associated-control */ }
