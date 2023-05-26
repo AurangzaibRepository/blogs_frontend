@@ -37,12 +37,12 @@
     font-size: 55px;
 }
 
-#dv-home #dv-portfolio {
-    background: #f7f7f7;
-    padding-top: 50px;
-}
-
 #dv-home #dv-portfolio .portfolio-box {
     background: #fff;
     box-shadow: 0 3px 15px rgba(0,0,0,.2);
+}
+
+#dv-home #dv-portfolio img {
+    height: 280px;
+    width: 100%;
 }
