@@ -14,6 +14,15 @@ function WhatIOfferSection({
         <label className="title mb-0">{title}</label>
         <br />
         <span id="span-subtitle">{caption}</span>
+        <div className="row mt-4">
+          {items.map((item) => (
+            <div className="col-md-4 mt-4" key={item.id}>
+              { /* eslint-disable-next-line jsx-a11y/label-has-associated-control */ }
+              <label className="sub-title mb-4">{item.title}</label>
+              <p>{item.description}</p>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );
