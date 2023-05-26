@@ -19,4 +19,10 @@ function PortfolioSection({
   );
 }
 
+PortfolioSection.propTypes = {
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  items: PropTypes.instanceOf(Array).isRequired,
+};
+
 export default PortfolioSection;
