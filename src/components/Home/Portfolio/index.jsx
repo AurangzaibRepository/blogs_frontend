@@ -16,7 +16,9 @@ function PortfolioSection({
         <span id="span-subtitle">{caption}</span>
         <div className="row mt-5 pt-2 justify-content-center">
           {items.map((item) => (
-            <div className="col-md-6 portfolio-box">{item.title}</div>
+            <div className="col-md-6">
+              <div className="portfolio-box">{item.title}</div>
+            </div>
           ))}
         </div>
       </div>
