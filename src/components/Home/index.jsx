@@ -41,7 +41,7 @@ function Home() {
               caption={data.what_i_offer.caption}
               items={data.what_i_offer.items}
             />
-            <div className="section-divider" />
+            <div className="section-divider mb-0" />
             <PortfolioSection
               title={data.portfolio.title}
               caption={data.portfolio.caption}
