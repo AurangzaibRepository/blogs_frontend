@@ -14,7 +14,7 @@ function PortfolioSection({
         <label className="title mb-0">{title}</label>
         <br />
         <span id="span-subtitle">{caption}</span>
-        <div className="mt-7">
+        <div className="mt-5 pt-2">
           {items.map((item) => (
             <div className="portfolio-box">{item.title}</div>
           ))}
