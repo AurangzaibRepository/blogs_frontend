@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 function PortfolioSection({
   title,
-  description,
+  caption,
   items,
 }) {
   return (
@@ -13,7 +13,12 @@ function PortfolioSection({
         { /* eslint-disable-next-line jsx-a11y/label-has-associated-control */ }
         <label className="title mb-0">{title}</label>
         <br />
-        <span id="span-subtitle">{description}</span>
+        <span id="span-subtitle">{caption}</span>
+        <div className="mt-7">
+          {items.map((item) => (
+            <div className="portfolio-box">{item.title}</div>
+          ))}
+        </div>
       </div>
     </div>
   );
@@ -21,7 +26,7 @@ function PortfolioSection({
 
 PortfolioSection.propTypes = {
   title: PropTypes.string.isRequired,
-  description: PropTypes.string.isRequired,
+  caption: PropTypes.string.isRequired,
   items: PropTypes.instanceOf(Array).isRequired,
 };
 

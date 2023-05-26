@@ -44,7 +44,7 @@ function Home() {
             <div className="section-divider" />
             <PortfolioSection
               title={data.portfolio.title}
-              description={data.portfolio.description}
+              caption={data.portfolio.caption}
               items={data.portfolio.items}
             />
           </div>
