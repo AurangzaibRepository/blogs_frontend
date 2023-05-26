@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 function OfferBox({
+  key,
   icon,
   title,
   description,
@@ -20,6 +21,7 @@ function OfferBox({
 }
 
 OfferBox.propTypes = {
+  key: PropTypes.number.isRequired,
   icon: PropTypes.objectOf(PropTypes.shape).isRequired,
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
