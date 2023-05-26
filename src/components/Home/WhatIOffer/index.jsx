@@ -1,6 +1,14 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import PropTypes from 'prop-types';
+import {
+  faHeart,
+  faTree,
+  faPeopleGroup,
+  faSearchPlus,
+  faChampagneGlasses,
+  faBlog,
+} from '@fortawesome/free-solid-svg-icons';
 
 function WhatIOfferSection({
   title,
