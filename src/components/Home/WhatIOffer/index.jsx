@@ -16,6 +16,15 @@ function WhatIOfferSection({
   caption,
   items,
 }) {
+  const iconArray = [
+    faHeart,
+    faTree,
+    faPeopleGroup,
+    faSearchPlus,
+    faChampagneGlasses,
+    faBlog,
+  ];
+
   return (
     <div id="dv-whatoffer">
       <div className="text-center">
