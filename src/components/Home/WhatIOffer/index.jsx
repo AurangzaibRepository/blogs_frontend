@@ -35,6 +35,7 @@ function WhatIOfferSection({
         <div className="row mt-4">
           {items.map((item, index) => (
             <OfferBox
+              key={item.id}
               icon={iconArray[index]}
               title={item.title}
               description={item.description}
