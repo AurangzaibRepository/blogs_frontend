@@ -2,7 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-function OfferBox() {
+function OfferBox({
+    icon,
+    title,
+    description,
+}) {
   return (
     <div className="col-md-4 mt-5" key={item.id}>
       <FontAwesomeIcon icon={} />
