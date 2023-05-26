@@ -10,6 +10,12 @@ function PortfolioSection({
   caption,
   items,
 }) {
+  const imageList = [
+    Portfolio1,
+    Portfolio2,
+    Portfolio3,
+  ];
+
   return (
     <div id="dv-portfolio">
       <div className="text-center">
@@ -20,7 +26,10 @@ function PortfolioSection({
         <div className="row mt-3 pt-2 justify-content-center">
           {items.map((item) => (
             <div className="col-md-6 mt-4">
-              <div className="portfolio-box">{item.title}</div>
+              <div className="portfolio-box">
+                <img src={Portfolio1} alt="Portfolio1" />
+                {item.title}
+              </div>
             </div>
           ))}
         </div>
