@@ -1,7 +1,6 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import PropTypes from 'prop-types';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faHeart,
   faTree,
@@ -10,6 +9,7 @@ import {
   faChampagneGlasses,
   faBlog,
 } from '@fortawesome/free-solid-svg-icons';
+import OfferBox from './OfferBox';
 
 function WhatIOfferSection({
   title,
@@ -25,13 +25,10 @@ function WhatIOfferSection({
         <span id="span-subtitle">{caption}</span>
         <div className="row mt-4">
           {items.map((item) => (
-            <div className="col-md-4 mt-5" key={item.id}>
-              <FontAwesomeIcon icon={faTree} />
-              <br />
-              { /* eslint-disable-next-line jsx-a11y/label-has-associated-control */ }
-              <label className="sub-title mb-4 mt-0">{item.title}</label>
-              <p>{item.description}</p>
-            </div>
+            <OfferBox
+              title={item.title}
+              description={item.description}
+            />
           ))}
         </div>
       </div>
