@@ -33,8 +33,9 @@ function WhatIOfferSection({
         <br />
         <span id="span-subtitle">{caption}</span>
         <div className="row mt-4">
-          {items.map((item) => (
+          {items.map((item, index) => (
             <OfferBox
+              icon={iconArray[index]}
               title={item.title}
               description={item.description}
             />
