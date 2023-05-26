@@ -45,6 +45,7 @@ function Home() {
             <PortfolioSection
               title={data.portfolio.title}
               description={data.portfolio.description}
+              items={data.portfolio.items}
             />
           </div>
         </>
