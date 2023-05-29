@@ -7,6 +7,12 @@ import Portfolio2 from '../../../assets/home/portfolio2.jpg';
 import Portfolio3 from '../../../assets/home/portfolio3.jpg';
 
 function PortfolioBox({ items }) {
+  const imageList = [
+    Portfolio1,
+    Portfolio2,
+    Portfolio3,
+  ];
+
   return (
     <div className="row mt-4 pt-2 justify-content-center">
       {items.map((item) => (
