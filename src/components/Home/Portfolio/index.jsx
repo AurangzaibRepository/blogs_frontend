@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/label-has-associated-control */
 /* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import PropTypes from 'prop-types';
@@ -19,7 +20,6 @@ function PortfolioSection({
   return (
     <div id="dv-portfolio">
       <div className="text-center">
-        { /* eslint-disable-next-line jsx-a11y/label-has-associated-control */ }
         <label className="title mb-0">{title}</label>
         <br />
         <span id="span-subtitle">{caption}</span>
@@ -28,7 +28,7 @@ function PortfolioSection({
             <div className="col-md-4 mt-4">
               <div className="portfolio-box">
                 <img src={imageList[index]} alt="Portfolio1" />
-                {item.title}
+                <label className="image-title">{item.title}</label>
               </div>
             </div>
           ))}
