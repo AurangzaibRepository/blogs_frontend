@@ -46,3 +46,9 @@
     height: 280px;
     width: 100%;
 }
+
+#dv-portfolio .image-title {
+    font-size: 25px;
+    font-weight: 600;
+    padding: 30px 0px;
+}
