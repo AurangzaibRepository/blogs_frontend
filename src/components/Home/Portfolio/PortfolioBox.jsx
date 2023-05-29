@@ -15,7 +15,7 @@ function PortfolioBox({ items }) {
 
   return (
     <div className="row mt-4 pt-2 justify-content-center">
-      {items.map((item) => (
+      {items.map((item, index) => (
         <div className="col-md-4 mt-4">
           <div className="portfolio-box">
             <img src={imageList[index]} alt="Portfolio1" />
