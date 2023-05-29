@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function PortfolioBox() {
+function PortfolioBox({ items }) {
   return();
 }
 
