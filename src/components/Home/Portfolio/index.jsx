@@ -15,7 +15,7 @@ function PortfolioSection({
         <label className="title mb-0">{title}</label>
         <br />
         <span id="span-subtitle">{caption}</span>
-
+        <PortfolioBox items={items} />
       </div>
     </div>
   );
