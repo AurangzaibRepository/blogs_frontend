@@ -2,6 +2,9 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import PropTypes from 'prop-types';
+import Portfolio1 from '../../../assets/home/portfolio1.jpg';
+import Portfolio2 from '../../../assets/home/portfolio2.jpg';
+import Portfolio3 from '../../../assets/home/portfolio3.jpg';
 
 function PortfolioBox({ items }) {
   return (
