@@ -56,6 +56,7 @@ function Home() {
             <VitaSection
               title={data.vita.title}
               caption={data.vita.caption}
+              items={data.vita.items}
             />
           </div>
         </>
