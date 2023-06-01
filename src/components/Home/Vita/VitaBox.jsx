@@ -1,7 +1,7 @@
 /* eslint-disable import/no-extraneous-dependencies */
 /* eslint-disable jsx-a11y/label-has-associated-control */
-import React from 'react';
-import PropTypes from 'prop-types';
+import React, { useContext } from 'react';
+import AppContext from '../../layouts/AppContext';
 import Vita1 from '../../../assets/home/vita1.jpg';
 import Vita2 from '../../../assets/home/vita2.jpg';
 import Vita3 from '../../../assets/home/vita3.jpg';
@@ -24,11 +24,13 @@ const imageList = [
   Vita9,
 ];
 
-function VitaBox({ items }) {
+function VitaBox() {
+  const { items } = useContext(AppContext);
+
   return (
     <div className="row mt-4">
       {items.map((item, index) => (
-        <div className="col-md-4 mt-5">
+        <div className="col-md-4 mt-5" key={item.id}>
           <img src={imageList[index]} alt="Vita" />
           <br />
           <label className="sub-title mb-0 label-year">{item.year}</label>
@@ -40,9 +42,5 @@ function VitaBox({ items }) {
     </div>
   );
 }
-
-VitaBox.propTypes = {
-  items: PropTypes.instanceOf(Array).isRequired,
-};
 
 export default VitaBox;
