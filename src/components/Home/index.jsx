@@ -5,6 +5,7 @@ import BannerSection from './BannerSection';
 import AboutMeSection from './AboutMe';
 import WhatIOfferSection from './WhatIOffer';
 import PortfolioSection from './Portfolio';
+import AppContext from '../layouts/AppContext';
 import './style.css';
 
 function Home() {
@@ -42,11 +43,12 @@ function Home() {
               items={data.what_i_offer.items}
             />
             <div className="section-divider" />
-            <PortfolioSection
-              title={data.portfolio.title}
-              caption={data.portfolio.caption}
-              items={data.portfolio.items}
-            />
+            <AppContext.Provider value={{ items: data.portfolio.items }}>
+              <PortfolioSection
+                title={data.portfolio.title}
+                caption={data.portfolio.caption}
+              />
+            </AppContext.Provider>
           </div>
         </>
       )}
