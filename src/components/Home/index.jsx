@@ -22,6 +22,7 @@ function Home() {
   }, []);
 
   const itemList = useMemo(() => ({ items: data ? data.portfolio.items : [] }), [data]);
+  const vitaItems = useMemo(() => ({ items: data ? data.vita.items : [] }), []);
 
   return (
     <div id="dv-home">
@@ -53,11 +54,12 @@ function Home() {
               />
             </AppContext.Provider>
             <div className="section-divider" />
-            <VitaSection
-              title={data.vita.title}
-              caption={data.vita.caption}
-              items={data.vita.items}
-            />
+            <AppContext.Provider value={vitaItems}>
+              <VitaSection
+                title={data.vita.title}
+                caption={data.vita.caption}
+              />
+            </AppContext.Provider>
           </div>
         </>
       )}
