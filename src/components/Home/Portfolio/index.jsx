@@ -7,7 +7,6 @@ import PortfolioBox from './PortfolioBox';
 function PortfolioSection({
   title,
   caption,
-  items,
 }) {
   return (
     <div id="dv-portfolio">
@@ -15,7 +14,7 @@ function PortfolioSection({
         <label className="title mb-0">{title}</label>
         <br />
         <span id="span-subtitle">{caption}</span>
-        <PortfolioBox items={items} />
+        <PortfolioBox />
       </div>
     </div>
   );
@@ -24,7 +23,6 @@ function PortfolioSection({
 PortfolioSection.propTypes = {
   title: PropTypes.string.isRequired,
   caption: PropTypes.string.isRequired,
-  items: PropTypes.instanceOf(Array).isRequired,
 };
 
 export default PortfolioSection;
