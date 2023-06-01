@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function TestimonialsSection() {
+function TestimonialsSection({ title, caption }) {
   return ();
 }
 
