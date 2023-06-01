@@ -3,7 +3,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function VitaSection({ title, caption }) {
+function VitaSection({
+  title,
+  caption,
+  items,
+}) {
   return (
     <div id="dv-vita">
       <div className="text-center">
@@ -18,6 +22,7 @@ function VitaSection({ title, caption }) {
 VitaSection.propTypes = {
   title: PropTypes.string.isRequired,
   caption: PropTypes.string.isRequired,
+  items: PropTypes.instanceOf(Array).isRequired,
 };
 
 export default VitaSection;
