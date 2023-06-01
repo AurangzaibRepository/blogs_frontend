@@ -1,5 +1,7 @@
+/* eslint-disable import/no-extraneous-dependencies */
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import React from 'react';
+import PropTypes from 'prop-types';
 import Vita1 from '../../../assets/home/vita1.jpg';
 import Vita2 from '../../../assets/home/vita2.jpg';
 import Vita3 from '../../../assets/home/vita3.jpg';
