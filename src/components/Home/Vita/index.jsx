@@ -42,7 +42,8 @@ function VitaSection({
               <br />
               <label className="sub-title mb-0 label-year">{item.year}</label>
               <br />
-              <label className="sub-title mt-0">{item.title}</label>
+              <label className="sub-title mt-0 mb-4">{item.title}</label>
+              <p>{item.description}</p>
             </div>
           ))}
         </div>
