@@ -24,7 +24,7 @@ const imageList = [
   Vita9,
 ];
 
-function VitaBox() {
+function VitaBox({ items }) {
   return (
     <div className="row mt-4">
       {items.map((item, index) => (
