@@ -123,6 +123,7 @@
         ]
     },
     "testimonials": {
+        "title": "Testimonials",
         "caption": "What industry leaders are saying",
         "items": [
             {
