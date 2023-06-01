@@ -52,6 +52,11 @@ function Home() {
                 caption={data.portfolio.caption}
               />
             </AppContext.Provider>
+            <div className="section-divider" />
+            <VitaSection
+              title={data.vita.title}
+              caption={data.vita.caption}
+            />
           </div>
         </>
       )}
