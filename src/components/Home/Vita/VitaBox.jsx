@@ -41,4 +41,8 @@ function VitaBox({ items }) {
   );
 }
 
+VitaBox.propTypes = {
+  items: PropTypes.instanceOf(Array).isRequired,
+};
+
 export default VitaBox;
