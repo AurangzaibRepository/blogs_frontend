@@ -11,4 +11,9 @@ function VitaSection({ title, caption }) {
   );
 }
 
+VitaSection.propTypes = {
+  title: PropTypes.string.isRequired,
+  caption: PropTypes.string.isRequired,
+};
+
 export default VitaSection;
