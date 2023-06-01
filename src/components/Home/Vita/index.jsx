@@ -14,6 +14,13 @@ function VitaSection({
         <label className="title mb-0">{title}</label>
         <br />
         <span id="span-subtitle">{caption}</span>
+        <div className="row mt-4">
+          {items.map((item, index) => (
+            <div className="col-md-4">
+
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );
