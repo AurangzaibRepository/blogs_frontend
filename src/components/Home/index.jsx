@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import HomeService from '../../services/HomeService';
 import Title from '../layouts/Title';
 import BannerSection from './BannerSection';
@@ -19,6 +19,8 @@ function Home() {
   useEffect(() => {
     getData();
   }, []);
+
+  const itemList = useMemo(() => ({ items: data ? data.portfolio.items : [] }), [data]);
 
   return (
     <div id="dv-home">
@@ -43,7 +45,7 @@ function Home() {
               items={data.what_i_offer.items}
             />
             <div className="section-divider" />
-            <AppContext.Provider value={{ items: data.portfolio.items }}>
+            <AppContext.Provider value={itemList}>
               <PortfolioSection
                 title={data.portfolio.title}
                 caption={data.portfolio.caption}
