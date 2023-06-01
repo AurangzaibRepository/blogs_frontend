@@ -40,7 +40,9 @@ function VitaSection({
             <div className="col-md-4 mt-5">
               <img src={imageList[index]} alt="Vita" />
               <br />
-              <label className="sub-title">{item.year}</label>
+              <label className="sub-title mb-0">{item.year}</label>
+              <br />
+              <label className="sub-title mt-0">{item.title}</label>
             </div>
           ))}
         </div>
