@@ -7,7 +7,6 @@ import VitaBox from './VitaBox';
 function VitaSection({
   title,
   caption,
-  items,
 }) {
   return (
     <div id="dv-vita">
@@ -15,7 +14,7 @@ function VitaSection({
         <label className="title mb-0">{title}</label>
         <br />
         <span id="span-subtitle">{caption}</span>
-        <VitaBox items={items} />
+        <VitaBox />
       </div>
     </div>
   );
@@ -24,7 +23,6 @@ function VitaSection({
 VitaSection.propTypes = {
   title: PropTypes.string.isRequired,
   caption: PropTypes.string.isRequired,
-  items: PropTypes.instanceOf(Array).isRequired,
 };
 
 export default VitaSection;
