@@ -22,7 +22,7 @@ function Home() {
   }, []);
 
   const itemList = useMemo(() => ({ items: data ? data.portfolio.items : [] }), [data]);
-  const vitaItems = useMemo(() => ({ items: data ? data.vita.items : [] }), []);
+  const vitaItems = useMemo(() => ({ items: data ? data.vita.items : [] }), [data]);
 
   return (
     <div id="dv-home">
