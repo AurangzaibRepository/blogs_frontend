@@ -5,6 +5,7 @@ import BannerSection from './BannerSection';
 import AboutMeSection from './AboutMe';
 import WhatIOfferSection from './WhatIOffer';
 import PortfolioSection from './Portfolio';
+import VitaSection from './Vita';
 import AppContext from '../layouts/AppContext';
 import './style.css';
 
