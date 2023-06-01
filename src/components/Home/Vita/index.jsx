@@ -2,6 +2,15 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import PropTypes from 'prop-types';
+import Vita1 from '../../../assets/home/vita1.jpg';
+import Vita2 from '../../../assets/home/vita2.jpg';
+import Vita3 from '../../../assets/home/vita3.jpg';
+import Vita4 from '../../../assets/home/vita4.jpg';
+import Vita5 from '../../../assets/home/vita5.jpg';
+import Vita6 from '../../../assets/home/vita6.jpg';
+import Vita7 from '../../../assets/home/vita7.jpg';
+import Vita8 from '../../../assets/home/vita8.jpg';
+import Vita9 from '../../../assets/home/vita9.jpg';
 
 function VitaSection({
   title,
