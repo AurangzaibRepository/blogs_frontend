@@ -12,6 +12,18 @@ import Vita7 from '../../../assets/home/vita7.jpg';
 import Vita8 from '../../../assets/home/vita8.jpg';
 import Vita9 from '../../../assets/home/vita9.jpg';
 
+const imageList = [
+  Vita1,
+  Vita2,
+  Vita3,
+  Vita4,
+  Vita5,
+  Vita6,
+  Vita7,
+  Vita8,
+  Vita9,
+];
+
 function VitaSection({
   title,
   caption,
