@@ -37,8 +37,10 @@ function VitaSection({
         <span id="span-subtitle">{caption}</span>
         <div className="row mt-4">
           {items.map((item, index) => (
-            <div className="col-md-4">
-
+            <div className="col-md-4 mt-5">
+              <img src={imageList[index]} alt="Vita" />
+              <br />
+              <label className="sub-title">{item.year}</label>
             </div>
           ))}
         </div>
