@@ -56,3 +56,8 @@
 #dv-vita .label-year {
     font-size: 20px;
 }
+
+#dv-vita img {
+    border-radius: 50%;
+    width: 175px;
+}
