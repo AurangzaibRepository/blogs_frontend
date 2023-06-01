@@ -91,31 +91,31 @@
                 "description": "This year I published my first book about React.js. Within the first month it had more than 10.000 readers and today it is one of the most popular React.js books."
             },
             {
-                "id": 4,
+                "id": 5,
                 "title": "Redux Book",
                 "year": "2017",
                 "description": "I published my second book about state management with Redux in React.js which I took one level further by packaging it as a full-blown online course."
             },
             {
-                "id": 5,
+                "id": 6,
                 "title": "GraphQL Book",
                 "year": "2018",
                 "description": "As an early adopter of GraphQL in my recent jobs, I wrote my third book about it for modern client-server applications using GraphQL in JavaScript."
             },
             {
-                "id": 6,
+                "id": 7,
                 "title": "Developer Magazines",
                 "year": "2018",
                 "description": "Every other month I write for a German software developer magazine educational content about JavaScript and its ecosystem."
             },
             {
-                "id": 7,
+                "id": 8,
                 "title": "Firebase Book",
                 "year": "2018",
                 "description": "Later this year, I published my fourth book/course about Firebase in React to build modern frontend applications without worrying about your backend application."
             },
             {
-                "id": 8,
+                "id": 9,
                 "title": "Self-Employed",
                 "year": "2017 - TODAY",
                 "description": "Lots of demand for JavaScript on-site or remote training, implementations for MVPs, code reviews, or complex JavaScript problem solving, led me to being self-employed."
