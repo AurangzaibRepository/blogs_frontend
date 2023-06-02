@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/label-has-associated-control */
 import React, { useState, useEffect } from 'react';
 import Title from '../layouts/Title';
 import BlogsService from '../../services/BlogsService';
@@ -18,6 +19,11 @@ function Blogs() {
     <>
       <Title title="Blogs" />
       <div className="dv-main container" id="dv-blogs">
+        {data.map((item) => (
+          <div className="dv-blogList" key={item.id}>
+            <label className="label-category">{item.title}</label>
+          </div>
+        ))}
       </div>
     </>
   );
