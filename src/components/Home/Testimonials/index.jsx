@@ -1,8 +1,16 @@
+/* eslint-disable import/no-extraneous-dependencies */
+/* eslint-disable jsx-a11y/label-has-associated-control */
 import React from 'react';
 import PropTypes from 'prop-types';
 
 function TestimonialsSection({ title, caption }) {
-  return ();
+  return (
+    <div id="dv-testimonials">
+      <div className="text-center">
+        <label className="title mb-0">{title}</label>
+      </div>
+    </div>
+  );
 }
 
 TestimonialsSection.propTypes = {
