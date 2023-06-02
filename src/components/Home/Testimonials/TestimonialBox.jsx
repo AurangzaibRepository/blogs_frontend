@@ -22,7 +22,7 @@ function TestimonialBox({ items }) {
   ];
 
   return (
-    <div className="row mt-4">
+    <div className="row mt-4 justify-content-center">
       {items.map((item, index) => (
         <div className="col-md-4 mt-5" key={item.id}>
           <img src={imageList[index]} alt="Testimonial" />
