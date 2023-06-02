@@ -61,6 +61,12 @@ function Home() {
                 caption={data.vita.caption}
               />
             </AppContext.Provider>
+            <div className="section-divider" />
+            <TestimonialsSection
+              title={data.testimonials.title}
+              caption={data.testimonials.caption}
+              items={data.testimonials.items}
+            />
           </div>
         </>
       )}
