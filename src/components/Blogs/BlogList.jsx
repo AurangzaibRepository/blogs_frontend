@@ -8,7 +8,11 @@ function BlogList({ blogs }) {
   return (
     <>
       {blogs.map((item) => (
-        
+        <BlogBox
+          key={item.id}
+          title={item.title}
+          description={item.description}
+        />
       ))}
     </>
   );
