@@ -8,3 +8,8 @@
     box-shadow: 0 3px 15px rgba(0,0,0,.2);
     padding: 25px;
 }
+
+#dv-blogs .dv-blog .dv-image {
+    height: 225px;
+    width: 350px;
+}
