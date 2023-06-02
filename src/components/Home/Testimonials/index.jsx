@@ -15,6 +15,7 @@ function TestimonialsSection({
         <label className="title mb-0">{title}</label>
         <br />
         <span id="span-subtitle">{caption}</span>
+        <TestimonialBox items={items} />
       </div>
     </div>
   );
