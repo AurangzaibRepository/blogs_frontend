@@ -22,9 +22,12 @@ function Blogs() {
         {data
         && (
           data.blog_categories.map((item) => (
-            <div className="dv-blogList" key={item.id}>
-              <label className="label-category">{item.title}</label>
-            </div>
+            <>
+              <div className="dv-blogList" key={item.id}>
+                <label className="label-category">{item.title}</label>
+              </div>
+              <div className="section-divider" />
+            </>
           ))
         )}
       </div>
