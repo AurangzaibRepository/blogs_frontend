@@ -1,6 +1,13 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import PropTypes from 'prop-types';
+import Testimonial1 from '../../../assets/home/testimonial1.jpg';
+import Testimonial2 from '../../../assets/home/testimonial2.jpg';
+import Testimonial3 from '../../../assets/home/testimonial3.jpg';
+import Testimonial4 from '../../../assets/home/testimonial4.jpg';
+import Testimonial5 from '../../../assets/home/testimonial5.jpg';
+import Testimonial6 from '../../../assets/home/testimonial6.jpg';
+import Testimonial7 from '../../../assets/home/testimonial7.jpg';
 
 function TestimonialBox({ items }) {
   return (
