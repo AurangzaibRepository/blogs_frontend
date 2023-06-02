@@ -3,17 +3,65 @@
         {
             "id": 1,
             "title": "Recent Articles",
-            "blogs": []
+            "blogs": [
+                {
+                    "id": 1,
+                    "title": "How to learn React as a Library or Framework [2023]",
+                    "description": "Learning React in 2023 is not the easiest endeavour. While we had lots of stability since the release of React Hooks in 2019, the tide is turning again. And it may be a more volatile shift than it has been with React Hooks. In this article, I want to compare the two angles on how to learn React in 2023: the library way and the framework way. To put…"
+                },
+                {
+                    "id": 2,
+                    "title": "Migrate to Vite from Create React App (CRA)",
+                    "description": "A quick migration guide to Vite from Create React App, because (apart from Next.js) Vite is the natural successor of CRA for creating a  modern React application as SPA . First, install Vite and all React related libraries (here: Vite's React Plugin) as development dependencies: Second, uninstall create-react-app's dependency: Third, adjust your…"
+                },
+                {
+                    "id": 3,
+                    "title": "How to start a React Project in 2023",
+                    "description": "Here I want to give you a brief overview of starter kits for a new React project. I want to reflect on advantages and disadvantages, on the skill-level needed as a developer, and on what features each starter project has to offer for you as a React developer. At the end you will know about 3 solutions for different requirements. A bit of context on…"
+                }
+            ]
         },
         {
             "id": 2,
             "title": "Getting Started Tutorials",
-            "blogs": []
+            "blogs": [
+                {
+                    "id": 1,
+                    "title": "How to setup Express.js in Node.js",
+                    "description": "Express.js is the most popular choice when it comes to building web applications with Node.js. However, when saying web applications with Node.js, it's often not for anything visible in the browser (excluding server-side rendering of a frontend application). Instead, Express.js, a web application framework for Node.js, enables you to build server…"
+                },
+                {
+                    "id": 2,
+                    "title": "How to learn React.js",
+                    "description": "How to learn React is high on the agenda for plenty of JavaScript developers this year. The  recent State of JS survey  has shown that many developers choose React to creating modern web applications. Due to its popularity and job demand many JavaScript developers want to learn React. In this guide, I give beginners a comprehensive overview of how…"
+                },
+                {
+                    "id": 3,
+                    "title": "React Redux Tutorial for Beginners",
+                    "description": "Even though I have written a book about Redux in React, it may be too heavy on the subject for someone who wants only to try out a React Redux tutorial. That's why I extracted this chapter from my book to be read as a tutorial for beginners on my website for free to learn the basics about Redux and Redux in React. And who knows, if you want to dig…"
+                }
+            ]
         },
         {
             "id": 3,
             "title": "Read more about react",
-            "blogs": []
+            "blogs": [
+                {
+                    "id": 1,
+                    "title": "How to learn React as a Library or Framework [2023]",
+                    "description": "Learning React in 2023 is not the easiest endeavour. While we had lots of stability since the release of React Hooks in 2019, the tide is turning again. And it may be a more volatile shift than it has been with React Hooks. In this article, I want to compare the two angles on how to learn React in 2023: the library way and the framework way. To put…"
+                },
+                {
+                    "id": 2,
+                    "title": "Migrate to Vite from Create React App (CRA)",
+                    "description": "A quick migration guide to Vite from Create React App, because (apart from Next.js) Vite is the natural successor of CRA for creating a  modern React application as SPA . First, install Vite and all React related libraries (here: Vite's React Plugin) as development dependencies: Second, uninstall create-react-app's dependency: Third, adjust your…"
+                },
+                {
+                    "id": 3,
+                    "title": "How to start a React Project in 2023",
+                    "description": "Here I want to give you a brief overview of starter kits for a new React project. I want to reflect on advantages and disadvantages, on the skill-level needed as a developer, and on what features each starter project has to offer for you as a React developer. At the end you will know about 3 solutions for different requirements. A bit of context on…"
+                }
+            ]
         }
     ]
 }
