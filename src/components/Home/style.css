@@ -57,7 +57,8 @@
     font-size: 20px;
 }
 
-#dv-vita img {
+#dv-vita img,
+#dv-testimonials img {
     border-radius: 50%;
     width: 175px;
 }
