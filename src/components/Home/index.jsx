@@ -62,11 +62,12 @@ function Home() {
               />
             </AppContext.Provider>
             <div className="section-divider" />
-            <TestimonialsSection
-              title={data.testimonials.title}
-              caption={data.testimonials.caption}
-              items={data.testimonials.items}
-            />
+            <AppContext.Provider value={testimonialItems}>
+              <TestimonialsSection
+                title={data.testimonials.title}
+                caption={data.testimonials.caption}
+              />
+            </AppContext.Provider>
           </div>
         </>
       )}
