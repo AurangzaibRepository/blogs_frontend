@@ -19,11 +19,14 @@ function Blogs() {
     <>
       <Title title="Blogs" />
       <div className="dv-main container" id="dv-blogs">
-        {data.map((item) => (
-          <div className="dv-blogList" key={item.id}>
-            <label className="label-category">{item.title}</label>
-          </div>
-        ))}
+        {data
+        && (
+          data.map((item) => (
+            <div className="dv-blogList" key={item.id}>
+              <label className="label-category">{item.title}</label>
+            </div>
+          ))
+        )}
       </div>
     </>
   );
