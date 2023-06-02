@@ -22,6 +22,7 @@ function TestimonialsSection({
 TestimonialsSection.propTypes = {
   title: PropTypes.string.isRequired,
   caption: PropTypes.string.isRequired,
+  items: PropTypes.instanceOf(Array).isRequired,
 };
 
 export default TestimonialsSection;
