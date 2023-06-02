@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import Title from '../layouts/Title';
 import BlogsService from '../../services/BlogsService';
+import BlogList from './BlogList';
 import './style.css';
 
 function Blogs() {
