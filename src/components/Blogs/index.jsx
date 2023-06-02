@@ -24,16 +24,14 @@ function Blogs() {
         {data
         && (
           data.blog_categories.map((item, index) => (
-            <>
-              <div className="dv-blogList" key={item.id}>
-                <label className="label-category">{item.title}</label>
-                <BlogList blogs={item.blogs} />
-              </div>
+            <div className="dv-blogList" key={item.id}>
+              <label className="label-category">{item.title}</label>
+              <BlogList blogs={item.blogs} />
               {index !== data.blog_categories.length - 1
               && (
                 <div className="section-divider" />
               )}
-            </>
+            </div>
           ))
         )}
       </div>
