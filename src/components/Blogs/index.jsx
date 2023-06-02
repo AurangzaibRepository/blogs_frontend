@@ -21,12 +21,15 @@ function Blogs() {
       <div className="dv-main container" id="dv-blogs">
         {data
         && (
-          data.blog_categories.map((item) => (
+          data.blog_categories.map((item, index) => (
             <>
               <div className="dv-blogList" key={item.id}>
                 <label className="label-category">{item.title}</label>
               </div>
-              <div className="section-divider" />
+              {index !== data.blog_categories.length - 1
+              && (
+                <div className="section-divider" />
+              )}
             </>
           ))
         )}
