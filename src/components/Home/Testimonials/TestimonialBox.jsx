@@ -24,6 +24,7 @@ function TestimonialBox({ items }) {
     <div className="row mt-4 pt-2">
       {items.map((item, index) => (
         <div className="col-md-4 mt-4" key={item.id}>
+          <img src={imageList[index]} alt="Testimonial" />
         </div>
       ))}
     </div>
