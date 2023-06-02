@@ -7,7 +7,6 @@ import TestimonialBox from './TestimonialBox';
 function TestimonialsSection({
   title,
   caption,
-  items,
 }) {
   return (
     <div id="dv-testimonials">
@@ -15,7 +14,7 @@ function TestimonialsSection({
         <label className="title mb-0">{title}</label>
         <br />
         <span id="span-subtitle">{caption}</span>
-        <TestimonialBox items={items} />
+        <TestimonialBox />
       </div>
     </div>
   );
@@ -24,7 +23,6 @@ function TestimonialsSection({
 TestimonialsSection.propTypes = {
   title: PropTypes.string.isRequired,
   caption: PropTypes.string.isRequired,
-  items: PropTypes.instanceOf(Array).isRequired,
 };
 
 export default TestimonialsSection;
