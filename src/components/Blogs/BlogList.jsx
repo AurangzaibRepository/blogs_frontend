@@ -1,11 +1,17 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
 import PropTypes from 'prop-types';
+import Blog from '../../assets/blogs/blog.png';
 
 function BlogList({ blogs }) {
   return (
-    {blogs.map((item) => (
-      <div className="dv-blog"></div>
-    ))}
+    <>
+      {blogs.map((item) => (
+        <div className="dv-blog">
+          <img src={Blog} alt="Blog" />
+        </div>
+      ))}
+    </>
   );
 }
 
