@@ -3,9 +3,12 @@ import Title from '../layouts/Title';
 
 function Blogs() {
   return (
-    <div>
+    <>
       <Title title="Blogs" />
-    </div>
+      <div className="dv-main" id="dv-blogs">
+        
+      </div>
+    </>
   );
 }
 
