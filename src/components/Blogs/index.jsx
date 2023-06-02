@@ -5,6 +5,11 @@ import BlogsService from '../../services/BlogsService';
 function Blogs() {
   const [data, setData] = useState();
 
+  const getData = async () => {
+    const blogsData = await BlogsService.getData();
+    setData(BlogsService);
+  };
+
   return (
     <>
       <Title title="Blogs" />
