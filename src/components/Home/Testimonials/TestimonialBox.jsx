@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 /* eslint-disable import/no-extraneous-dependencies */
 import React, { useContext } from 'react';
-import PropTypes from 'prop-types';
+import AppContext from '../../layouts/AppContext';
 import Testimonial1 from '../../../assets/home/testimonial1.jpg';
 import Testimonial2 from '../../../assets/home/testimonial2.jpg';
 import Testimonial3 from '../../../assets/home/testimonial3.jpg';
@@ -10,7 +10,8 @@ import Testimonial5 from '../../../assets/home/testimonial5.jpg';
 import Testimonial6 from '../../../assets/home/testimonial6.jpg';
 import Testimonial7 from '../../../assets/home/testimonial7.jpg';
 
-function TestimonialBox({ items }) {
+function TestimonialBox() {
+  const { items } = useContext(AppContext);
   const imageList = [
     Testimonial1,
     Testimonial2,
@@ -36,9 +37,5 @@ function TestimonialBox({ items }) {
     </div>
   );
 }
-
-TestimonialBox.propTypes = {
-  items: PropTypes.instanceOf(Array).isRequired,
-};
 
 export default TestimonialBox;
