@@ -22,14 +22,15 @@ function TestimonialBox({ items }) {
   ];
 
   return (
-    <div className="row mt-4 pt-2">
+    <div className="row mt-4">
       {items.map((item, index) => (
-        <div className="col-md-4 mt-4" key={item.id}>
+        <div className="col-md-4 mt-5" key={item.id}>
           <img src={imageList[index]} alt="Testimonial" />
           <br />
           <label className="sub-title mb-0">{item.title}</label>
           <br />
           <label className="label-post mt-0 mb-4">{item.post}</label>
+          <p>{item.description}</p>
         </div>
       ))}
     </div>
