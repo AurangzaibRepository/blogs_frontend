@@ -10,6 +10,16 @@ import Testimonial6 from '../../../assets/home/testimonial6.jpg';
 import Testimonial7 from '../../../assets/home/testimonial7.jpg';
 
 function TestimonialBox({ items }) {
+  const imageList = [
+    Testimonial1,
+    Testimonial2,
+    Testimonial3,
+    Testimonial4,
+    Testimonial5,
+    Testimonial6,
+    Testimonial7,
+  ];
+
   return (
     <div className="row mt-4 pt-2">
       {items.map((item, index) => (
