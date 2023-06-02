@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 /* eslint-disable import/no-extraneous-dependencies */
-import React from 'react';
+import React, { useMemo } from 'react';
 import PropTypes from 'prop-types';
 import Testimonial1 from '../../../assets/home/testimonial1.jpg';
 import Testimonial2 from '../../../assets/home/testimonial2.jpg';
