@@ -7,8 +7,12 @@ function Blogs() {
 
   const getData = async () => {
     const blogsData = await BlogsService.getData();
-    setData(BlogsService);
+    setData(blogsData);
   };
+
+  useEffect(() => {
+    getData();
+  }, []);
 
   return (
     <>
