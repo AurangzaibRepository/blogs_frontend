@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function BlogList() {
+function BlogList({ blogs }) {
   return ();
 }
 
