@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import Title from '../layouts/Title';
 import BlogsService from '../../services/BlogsService';
+import './style.css';
 
 function Blogs() {
   const [data, setData] = useState();
