@@ -5,8 +5,7 @@ function Blogs() {
   return (
     <>
       <Title title="Blogs" />
-      <div className="dv-main" id="dv-blogs">
-        
+      <div className="dv-main container" id="dv-blogs">
       </div>
     </>
   );
