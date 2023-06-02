@@ -27,6 +27,7 @@ function Blogs() {
             <>
               <div className="dv-blogList" key={item.id}>
                 <label className="label-category">{item.title}</label>
+                <BlogList blogs={item.blogs} />
               </div>
               {index !== data.blog_categories.length - 1
               && (
