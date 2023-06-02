@@ -8,6 +8,8 @@ function TestimonialsSection({ title, caption }) {
     <div id="dv-testimonials">
       <div className="text-center">
         <label className="title mb-0">{title}</label>
+        <br />
+        <span id="span-subtitle">{caption}</span>
       </div>
     </div>
   );
@@ -16,6 +18,6 @@ function TestimonialsSection({ title, caption }) {
 TestimonialsSection.propTypes = {
   title: PropTypes.string.isRequired,
   caption: PropTypes.string.isRequired,
-}
+};
 
 export default TestimonialsSection;
