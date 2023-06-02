@@ -35,7 +35,7 @@ function Home() {
             title={data.banner.title}
             subTitle={data.banner.sub_title}
           />
-          <div className="container dv-main pt-5">
+          <div className="container dv-main pt-5 pb-5">
             <AboutMeSection
               title={data.about_me.title}
               caption={data.about_me.caption}
