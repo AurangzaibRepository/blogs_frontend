@@ -5,4 +5,8 @@ function BlogList({ blogs }) {
   return ();
 }
 
+BlogList.propTypes = {
+  blogs: PropTypes.instanceOf(Array).isRequired,
+};
+
 export default BlogList;
