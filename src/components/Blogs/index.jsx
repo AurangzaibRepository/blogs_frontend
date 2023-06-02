@@ -20,7 +20,7 @@ function Blogs() {
   return (
     <>
       <Title title="Blogs" />
-      <div className="dv-main container" id="dv-blogs">
+      <div className="dv-main container pb-3" id="dv-blogs">
         {data
         && (
           data.blog_categories.map((item, index) => (
