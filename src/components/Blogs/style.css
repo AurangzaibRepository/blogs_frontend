@@ -11,10 +11,9 @@
 
 #dv-blogs .dv-blog .dv-image {
     height: 225px;
-    width: 350px;
 }
 
-#dv-blogs .dv-image img {
+#dv-blogs img {
     height: 100%;
     width: 100%;
 }
