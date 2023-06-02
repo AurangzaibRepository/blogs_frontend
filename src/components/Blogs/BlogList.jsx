@@ -2,7 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 function BlogList({ blogs }) {
-  return ();
+  return (
+    {blogs.map((item) => (
+      <div className="dv-blog"></div>
+    ))}
+  );
 }
 
 BlogList.propTypes = {
