@@ -3,7 +3,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function TestimonialsSection({ title, caption }) {
+function TestimonialsSection({
+  title,
+  caption,
+  items,
+}) {
   return (
     <div id="dv-testimonials">
       <div className="text-center">
