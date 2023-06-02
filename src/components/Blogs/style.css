@@ -13,3 +13,7 @@
     height: 100%;
     width: 100%;
 }
+
+#dv-blogs .dv-blog .label-blogtitle {
+    text-transform: uppercase;
+}
