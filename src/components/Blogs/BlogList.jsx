@@ -7,7 +7,7 @@ function BlogList({ blogs }) {
   return (
     <>
       {blogs.map((item) => (
-        <div className="dv-blog">
+        <div className="dv-blog mt-4">
           <img src={Blog} alt="Blog" />
         </div>
       ))}
