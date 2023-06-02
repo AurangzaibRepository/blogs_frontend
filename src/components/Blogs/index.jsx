@@ -21,7 +21,7 @@ function Blogs() {
       <div className="dv-main container" id="dv-blogs">
         {data
         && (
-          data.map((item) => (
+          data.blog_categories.map((item) => (
             <div className="dv-blogList" key={item.id}>
               <label className="label-category">{item.title}</label>
             </div>
