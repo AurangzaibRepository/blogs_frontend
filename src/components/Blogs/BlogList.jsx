@@ -13,7 +13,7 @@ function BlogList({ blogs }) {
             <img src={Blog} alt="Blog" />
           </div>
           <div className="col-md-8">
-            <label className="label-blogtitle sub-title">{item.title}</label>
+            <label className="label-blogtitle sub-title mt-0">{item.title}</label>
             <br />
             <p>{item.description}</p>
           </div>
