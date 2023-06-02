@@ -3,6 +3,8 @@ import Title from '../layouts/Title';
 import BlogsService from '../../services/BlogsService';
 
 function Blogs() {
+  const [data, setData] = useState();
+
   return (
     <>
       <Title title="Blogs" />
